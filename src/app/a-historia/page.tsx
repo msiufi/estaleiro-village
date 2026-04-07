@@ -1,6 +1,14 @@
 import Image from "next/image";
 
 import Timeline from "@/components/sections/timeline";
+import { createMetadata } from "@/lib/metadata";
+
+export const metadata = createMetadata({
+  title: "Nossa História",
+  description:
+    "30 anos de história da Pousada Estaleiro Village. Uma família, um sonho e o amor pelo mar em Balneário Camboriú.",
+  path: "/a-historia",
+});
 
 export default function AHistoriaPage() {
   return (

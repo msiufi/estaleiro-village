@@ -1,8 +1,16 @@
-﻿import Image from "next/image"
+import Image from "next/image"
 
 import ContactForm from "@/components/eventos/contact-form"
 import EventTypeCard from "@/components/eventos/event-type-card"
 import { eventTypes, statsItems } from "@/data/eventos"
+import { createMetadata } from "@/lib/metadata"
+
+export const metadata = createMetadata({
+  title: "Eventos & Grupos",
+  description:
+    "Realize seu evento à beira-mar na Pousada Estaleiro Village. Casamentos, confraternizações, retiros e workshops em Balneário Camboriú.",
+  path: "/eventos",
+})
 
 const galleryImages = [
   {

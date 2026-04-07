@@ -10,6 +10,14 @@ import {
   Wifi,
   Wind,
 } from "lucide-react";
+import { createMetadata } from "@/lib/metadata";
+
+export const metadata = createMetadata({
+  title: "A Pousada",
+  description:
+    "Conheça a Pousada Estaleiro Village: refúgio boutique à beira-mar na Praia do Estaleiro, Balneário Camboriú, com 30 anos de história.",
+  path: "/a-pousada",
+});
 
 const amenities = [
   { icon: Wifi, label: "Wi-Fi gratuito" },
