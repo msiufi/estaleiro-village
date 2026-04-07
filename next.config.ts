@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  distDir: ".next-verify",
+  turbopack: {
+    root: process.cwd(),
+  },
 };
 
 export default nextConfig;
