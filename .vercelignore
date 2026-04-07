@@ -1,0 +1,9 @@
+node_modules
+.next
+.next-build
+.next-build-validation
+.next-build-verify
+.next-verify
+.seo-build-validate
+.git
+*.log

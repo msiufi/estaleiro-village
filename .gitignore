@@ -15,7 +15,15 @@
 
 # next.js
 /.next/
+/.next*/
 /out/
+/.codex-buildcheck/
+/.seo-build-validate/
+/.next-build/
+/.next-build-verify/
+/.next-build-validation/
+/.next-verify/
+/.next-build-output/
 
 # production
 /build
@@ -39,3 +47,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
