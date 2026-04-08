@@ -162,10 +162,10 @@ export default function APousadaPage() {
       <section className="bg-[#F7F3EE]">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <p className="text-xs font-bold uppercase tracking-widest text-ev-primary">
-            Lazer &amp; Bem-estar
+            Lazer & Bem-estar
           </p>
           <h2 className="mt-1 font-heading text-3xl text-ev-neutral-dark sm:text-4xl">
-            Piscinas &amp; Área de Lazer
+            Piscinas & Área de Lazer
           </h2>
           <p className="mt-3 text-base leading-7 text-muted-foreground">
             Relaxe em meio à natureza com vista para o mar
@@ -182,7 +182,7 @@ export default function APousadaPage() {
               />
             </div>
             <div className="flex flex-col gap-4">
-              <div className="relative flex-1 overflow-hidden rounded-xl">
+              <div className="relative aspect-[2/3] overflow-hidden rounded-xl">
                 <Image
                   src="/assets/images/frente_20mar_202.jpg"
                   alt="Vista do mar na Estaleiro Village"
@@ -191,10 +191,10 @@ export default function APousadaPage() {
                   sizes="(max-width: 768px) 100vw, 40vw"
                 />
               </div>
-              <div className="relative flex-1 overflow-hidden rounded-xl">
+              <div className="relative aspect-[2/3] overflow-hidden rounded-xl">
                 <Image
-                  src="/assets/images/flickr/praia-04.jpg"
-                  alt="Praia do Estaleiro com acesso exclusivo para hóspedes"
+                  src="/assets/images/jardim_202.jpg"
+                  alt="Jardins da Estaleiro Village"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 40vw"
