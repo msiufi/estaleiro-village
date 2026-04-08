@@ -4,6 +4,7 @@ import EventsTeaser from "@/components/sections/events-teaser";
 import Hero from "@/components/sections/hero";
 import IntroStrip from "@/components/sections/intro-strip";
 import Location from "@/components/sections/location";
+import SocialProofStrip from "@/components/sections/social-proof-strip";
 import Testimonials from "@/components/sections/testimonials";
 import { createMetadata } from "@/lib/metadata";
 
@@ -18,6 +19,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <SocialProofStrip />
       <IntroStrip />
       <AccommodationsPreview />
       <AboutTeaser />
