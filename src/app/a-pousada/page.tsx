@@ -158,6 +158,71 @@ export default function APousadaPage() {
         </div>
       </section>
 
+      {/* Piscina & Lazer */}
+      <section className="bg-[#F7F3EE]">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+          <p className="text-xs font-bold uppercase tracking-widest text-ev-primary">
+            Lazer &amp; Bem-estar
+          </p>
+          <h2 className="mt-1 font-heading text-3xl text-ev-neutral-dark sm:text-4xl">
+            Piscinas &amp; Área de Lazer
+          </h2>
+          <p className="mt-3 text-base leading-7 text-muted-foreground">
+            Relaxe em meio à natureza com vista para o mar
+          </p>
+
+          <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-[1.4fr_1fr]">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
+              <Image
+                src="/assets/images/flickr/pousada-08.jpg"
+                alt="Área de lazer e piscina externa da Estaleiro Village"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 58vw"
+              />
+            </div>
+            <div className="flex flex-col gap-4">
+              <div className="relative flex-1 overflow-hidden rounded-xl">
+                <Image
+                  src="/assets/images/frente_20mar_202.jpg"
+                  alt="Vista do mar na Estaleiro Village"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 40vw"
+                />
+              </div>
+              <div className="relative flex-1 overflow-hidden rounded-xl">
+                <Image
+                  src="/assets/images/flickr/praia-04.jpg"
+                  alt="Praia do Estaleiro com acesso exclusivo para hóspedes"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 40vw"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-6 flex flex-wrap gap-2">
+            {[
+              "Piscina externa",
+              "Piscina climatizada",
+              "Jacuzzis",
+              "Vôlei de praia",
+              "Área de descanso",
+              "Duchas externas",
+            ].map((item) => (
+              <span
+                key={item}
+                className="rounded-full border border-black/10 bg-white px-4 py-1.5 text-sm text-ev-neutral-dark"
+              >
+                {item}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="bg-[#F7F3EE]">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
