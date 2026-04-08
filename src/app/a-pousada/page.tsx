@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import {
   Car,
   Coffee,
@@ -33,11 +32,11 @@ const amenities = [
 const galleryImages = [
   {
     src: "/assets/images/47aad0_33762d8f54c04590aeb08d2109eceeb3_mv2.png",
-    alt: "Área externa da Pousada Estaleiro Village",
+    alt: "Area externa da Pousada Estaleiro Village",
   },
   {
     src: "/assets/images/47aad0_749ac6df1a064052b333b452692f9592_mv2_d_3968_2976_s_4_2.jpg",
-    alt: "Registro histórico da pousada",
+    alt: "Registro historico da pousada",
   },
   {
     src: "/assets/images/frente_20mar_202.jpg",
@@ -49,11 +48,35 @@ const galleryImages = [
   },
   {
     src: "/assets/images/sobrado_20ricardo.jpg",
-    alt: "Chalé da pousada",
+    alt: "Chale da pousada",
   },
   {
     src: "/assets/images/IMG_20251125_150745.jpg",
     alt: "Foto da propriedade da Estaleiro Village",
+  },
+  {
+    src: "/assets/images/flickr/pousada-08.jpg",
+    alt: "Pousada Estaleiro Village",
+  },
+  {
+    src: "/assets/images/10309741543_e7d8ae74e6_c.jpg",
+    alt: "Pousada Estaleiro Village",
+  },
+  {
+    src: "/assets/images/10430020596_736e0f388b_c.jpg",
+    alt: "Pousada Estaleiro Village",
+  },
+  {
+    src: "/assets/images/36829524845_8e2b17b5b4_c.jpg",
+    alt: "Pousada Estaleiro Village",
+  },
+  {
+    src: "/assets/images/54661554235_216e580305.jpg",
+    alt: "Pousada Estaleiro Village",
+  },
+  {
+    src: "/assets/images/flickr/praia-04.jpg",
+    alt: "Praia do Estaleiro",
   },
 ] as const;
 
@@ -137,6 +160,33 @@ export default function APousadaPage() {
 
       <section className="bg-[#F7F3EE]">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+          <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
+              <Image
+                src="/assets/images/flickr/cafe-04.jpg"
+                alt="Cafe da manha na Pousada Estaleiro Village"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
+
+            <div>
+              <h2 className="font-heading text-3xl text-ev-neutral-dark sm:text-4xl">
+                Cafe da Manha
+              </h2>
+              <p className="mt-6 text-base leading-7 text-muted-foreground">
+                Todas as manhas, o cafe da manha e preparado com produtos
+                frescos e regionais, para comecar o dia com sabor e energia em
+                um ambiente aconchegante.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="font-heading text-3xl text-ev-neutral-dark sm:text-4xl">
               Galeria
@@ -171,12 +221,14 @@ export default function APousadaPage() {
             Entre em contato e planeje dias de descanso entre o mar, os jardins
             e a tranquilidade da Praia do Estaleiro.
           </p>
-          <Link
-            href="/#contato"
+          <a
+            href="https://book.omnibees.com/hotel/18298?lang=pt-BR&currencyId=16"
+            target="_blank"
+            rel="noreferrer"
             className="mt-8 inline-flex rounded-md bg-[#1B6CA8] px-8 py-3 text-white transition hover:bg-[#155a8e]"
           >
             Reserve Agora
-          </Link>
+          </a>
         </div>
       </section>
     </>

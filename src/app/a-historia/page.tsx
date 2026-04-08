@@ -61,6 +61,24 @@ export default function AHistoriaPage() {
           </p>
         </div>
       </section>
+      <section className="bg-white">
+        <div className="mx-auto max-w-4xl px-4 py-16 text-center sm:px-6 lg:px-8">
+          <h2 className="font-heading text-3xl text-ev-neutral-dark sm:text-4xl">
+            Venha fazer parte dessa historia
+          </h2>
+          <p className="mt-4 text-base leading-7 text-muted-foreground">
+            Mais de 30 anos de hospitalidade te esperam na Praia do Estaleiro.
+          </p>
+          <a
+            href="https://book.omnibees.com/hotel/18298?lang=pt-BR&currencyId=16"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-8 inline-flex rounded-md bg-[#1B6CA8] px-8 py-3 text-white transition hover:bg-[#155a8e]"
+          >
+            Reserve sua estadia
+          </a>
+        </div>
+      </section>
     </>
   );
 }

@@ -90,12 +90,14 @@ export default function Header() {
         </nav>
 
         <div className="hidden md:flex">
-          <Link
-            href="/#contato"
+          <a
+            href="https://book.omnibees.com/hotel/18298?lang=pt-BR&currencyId=16"
+            target="_blank"
+            rel="noreferrer"
             className={buttonVariants({ variant: 'default', size: 'sm' })}
           >
             Reserve Agora
-          </Link>
+          </a>
         </div>
 
         <button
@@ -127,8 +129,10 @@ export default function Header() {
             </Link>
           ))}
 
-          <Link
-            href="/#contato"
+          <a
+            href="https://book.omnibees.com/hotel/18298?lang=pt-BR&currencyId=16"
+            target="_blank"
+            rel="noreferrer"
             className={cn(
               buttonVariants({ variant: 'default', size: 'sm' }),
               'mt-4 w-full'
@@ -136,7 +140,7 @@ export default function Header() {
             onClick={() => setIsMenuOpen(false)}
           >
             Reserve Agora
-          </Link>
+          </a>
         </nav>
       </div>
     </header>
