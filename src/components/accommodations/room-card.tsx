@@ -19,7 +19,8 @@ export default function RoomCard({ room }: RoomCardProps) {
           src={room.mainImage}
           alt={room.name}
           fill
-          sizes="(max-width: 768px) 100vw, 50vw"
+          quality={90}
+          sizes="(max-width: 767px) 100vw, (max-width: 1280px) 50vw, 640px"
           className="object-cover"
         />
       </div>

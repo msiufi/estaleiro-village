@@ -12,6 +12,7 @@ export default function Hero() {
         alt="Vista da Pousada Estaleiro Village de frente para o mar"
         fill
         preload
+        quality={100}
         className="object-cover"
         sizes="100vw"
       />

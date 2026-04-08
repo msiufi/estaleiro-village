@@ -34,6 +34,7 @@ export default function AccommodacoesPage() {
           alt="Vista da pousada e da praia do Estaleiro"
           fill
           preload
+          quality={100}
           sizes="100vw"
           className="object-cover"
         />

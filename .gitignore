@@ -23,7 +23,6 @@
 /.next-build-verify/
 /.next-build-validation/
 /.next-verify/
-/.next-build-output/
 
 # production
 /build
