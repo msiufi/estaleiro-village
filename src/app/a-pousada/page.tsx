@@ -223,6 +223,58 @@ export default function APousadaPage() {
         </div>
       </section>
 
+      {/* Gastronomia */}
+      <section className="bg-white">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+          <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+            <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
+              <Image
+                src="/assets/images/36829524845_8e2b17b5b4_c.jpg"
+                alt="Gastronomia à beira-mar na Estaleiro Village"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
+
+            <div>
+              <p className="text-xs font-bold uppercase tracking-widest text-ev-primary">
+                Restaurante
+              </p>
+              <h2 className="mt-1 font-heading text-3xl text-ev-neutral-dark sm:text-4xl">
+                Gastronomia à Beira-Mar
+              </h2>
+              <p className="mt-6 text-base leading-7 text-muted-foreground">
+                Sabores da culinária regional e internacional com vista
+                privilegiada para o mar. Ingredientes frescos de Santa
+                Catarina em pratos que celebram a gastronomia local.
+              </p>
+
+              <ul className="mt-6 space-y-2">
+                {[
+                  { label: "Jantar", detail: "Qui – Sáb · 19h às 22h" },
+                  { label: "Almoço", detail: "Diário · 12h às 15h" },
+                  { label: "Café da manhã", detail: "Incluso na estadia" },
+                ].map(({ label, detail }) => (
+                  <li key={label} className="flex items-center gap-3 text-sm">
+                    <span className="size-1.5 shrink-0 rounded-full bg-ev-primary" />
+                    <span className="font-medium text-ev-neutral-dark">{label}</span>
+                    <span className="text-muted-foreground">{detail}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <a
+                href="mailto:contato@estaleirovillage.com?subject=Reserva%20restaurante"
+                className="mt-8 inline-flex items-center rounded-md border border-ev-primary px-6 py-2.5 text-sm font-medium text-ev-primary transition hover:bg-ev-primary hover:text-white"
+              >
+                Reservar mesa →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-[#F7F3EE]">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
