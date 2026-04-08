@@ -51,10 +51,10 @@ export default function Header() {
   return (
     <header
       className={cn(
-        'fixed top-0 z-50 w-full transition-all duration-300',
+        'fixed top-0 z-50 w-full border-b transition-all duration-300',
         headerIsSolid
-          ? 'border-b border-black/10 bg-white text-[#1C1C1B] shadow-sm'
-          : 'bg-transparent text-white'
+          ? 'border-black/10 bg-white text-[#1C1C1B] shadow-sm'
+          : 'border-transparent bg-transparent text-white shadow-none'
       )}
     >
       <div className="mx-auto flex min-h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
