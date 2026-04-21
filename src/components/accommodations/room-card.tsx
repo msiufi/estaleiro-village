@@ -2,9 +2,10 @@
 
 import { useState, useCallback } from "react"
 import Image from "next/image"
+import Link from "next/link"
 import { ChevronLeft, ChevronRight, Users } from "lucide-react"
 
-import { Button } from "@/components/ui/button"
+import { buttonVariants } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import type { RoomType } from "@/data/accommodations"
 
@@ -113,9 +114,12 @@ export default function RoomCard({ room }: RoomCardProps) {
           <p className="text-sm font-medium text-ev-neutral-dark">
             A partir de <span className="text-base text-ev-primary">R$ {room.priceFrom}</span>/noite
           </p>
-          <Button variant="default" size="sm">
+          <Link
+            href={`/acomodacoes/${room.id}`}
+            className={buttonVariants({ variant: "default", size: "sm" })}
+          >
             Ver detalhes
-          </Button>
+          </Link>
         </div>
       </div>
     </article>
