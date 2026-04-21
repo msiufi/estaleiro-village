@@ -93,7 +93,7 @@ export default function RoomCard({ room }: RoomCardProps) {
         <div className="space-y-2">
           <h2 className="font-heading text-xl text-ev-neutral-dark">{room.name}</h2>
           <p className="text-sm leading-relaxed text-muted-foreground">
-            {room.description}
+            {room.shortDescription}
           </p>
         </div>
 
