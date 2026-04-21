@@ -24,6 +24,7 @@ const navigationLinks = [
   { href: '/a-pousada', label: 'A Pousada' },
   { href: '/a-historia', label: 'A História' },
   { href: '/acomodacoes', label: 'Acomodações' },
+  { href: '/atividades', label: 'Atividades' },
   { href: '/eventos', label: 'Eventos' },
 ]
 
