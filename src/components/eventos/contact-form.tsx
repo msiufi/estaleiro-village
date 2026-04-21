@@ -35,7 +35,7 @@ export default function ContactForm() {
   return (
     <div className="rounded-2xl bg-[#F7F3EE] p-6 sm:p-8">
       <h2 className="font-heading text-2xl text-[#1C1C1B]">
-        Solicitar Orcamento
+        Solicitar Orçamento
       </h2>
 
       <form
@@ -104,7 +104,7 @@ export default function ContactForm() {
               className="w-full rounded-md border border-gray-200 bg-white px-3 py-2 text-sm focus:ring-2 focus:ring-[#1B6CA8] focus:outline-none"
               required
             >
-              <option value="">Selecione uma opcao</option>
+              <option value="">Selecione uma opção</option>
               {eventTypes.map((eventType) => (
                 <option key={eventType.id} value={eventType.title}>
                   {eventType.title}
@@ -148,7 +148,7 @@ export default function ContactForm() {
           type="submit"
           className="w-full rounded-md bg-[#1B6CA8] py-3 font-medium text-white transition hover:bg-[#155a8e]"
         >
-          Enviar solicitacao
+          Enviar solicitação
         </button>
       </form>
     </div>

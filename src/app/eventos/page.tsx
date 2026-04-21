@@ -15,7 +15,7 @@ export const metadata = createMetadata({
 const galleryImages = [
   {
     src: "/assets/images/47aad0_33762d8f54c04590aeb08d2109eceeb3_mv2.png",
-    alt: "Espaco externo da pousada preparado para eventos",
+    alt: "Espaço externo da pousada preparado para eventos",
   },
   {
     src: "/assets/images/jardim_202.jpg",
@@ -60,7 +60,7 @@ export default function EventosPage() {
       <section className="px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-base leading-8 text-muted-foreground sm:text-lg">
-            Ha 30 anos realizando momentos inesqueciveis a beira-mar, a Pousada
+            Ha 30 anos realizando momentos inesquecíveis a beira-mar, a Pousada
             Estaleiro Village oferece um cenario natural unico para eventos que
             pedem charme, privacidade e autenticidade.
           </p>

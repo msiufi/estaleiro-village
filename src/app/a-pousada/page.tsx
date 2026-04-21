@@ -290,11 +290,11 @@ export default function APousadaPage() {
 
             <div>
               <h2 className="font-heading text-3xl text-ev-neutral-dark sm:text-4xl">
-                Cafe da Manha
+                Café da Manhã
               </h2>
               <p className="mt-6 text-base leading-7 text-muted-foreground">
-                Todas as manhas, o cafe da manha e preparado com produtos
-                frescos e regionais, para comecar o dia com sabor e energia em
+                Todas as manhas, o café da manhã e preparado com produtos
+                frescos e regionais, para começar o dia com sabor e energia em
                 um ambiente aconchegante.
               </p>
             </div>

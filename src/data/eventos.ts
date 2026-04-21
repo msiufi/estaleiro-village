@@ -9,14 +9,14 @@ export const eventTypes: EventType[] = [
   {
     id: "casamentos",
     icon: "Heart",
-    title: "Casamentos & Comemoracoes",
+    title: "Casamentos & Comemorações",
     description:
-      "Realize seu sonho a beira-mar com cerimonias intimas e inesqueciveis em um cenario natural unico.",
+      "Realize seu sonho a beira-mar com cerimônias intimas e inesquecíveis em um cenário natural único.",
   },
   {
     id: "corporativo",
     icon: "Briefcase",
-    title: "Confraternizacoes Corporativas",
+    title: "Confraternizações Corporativas",
     description:
       "Ambiente exclusivo e infraestrutura completa para reunir sua equipe em um retiro diferenciado.",
   },
@@ -25,19 +25,19 @@ export const eventTypes: EventType[] = [
     icon: "TreePine",
     title: "Retiros e Grupos",
     description:
-      "Espaco ideal para grupos que buscam reconexao com a natureza, paz e bem-estar coletivo.",
+      "Espaço ideal para grupos que buscam reconexão com a natureza, paz e bem-estar coletivo.",
   },
   {
     id: "reunioes",
     icon: "Users",
-    title: "Reunioes e Workshops",
+    title: "Reuniões e Workshops",
     description:
-      "Ambiente inspirador para reunioes produtivas, workshops e treinamentos fora do escritorio.",
+      "Ambiente inspirador para reuniões produtivas, workshops e treinamentos fora do escritorio.",
   },
 ]
 
 export const statsItems = [
-  { value: "Ate 100", label: "pessoas" },
-  { value: "A beira-mar", label: "espaco exclusivo" },
+  { value: "Até 100", label: "pessoas" },
+  { value: "À beira-mar", label: "espaço exclusivo" },
   { value: "Infraestrutura", label: "completa" },
 ]
