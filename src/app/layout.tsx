@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import Footer from "@/components/layout/footer";
 import Header from "@/components/layout/header";
+import WhatsAppFloat from "@/components/ui/whatsapp-float";
 import { createMetadata } from "@/lib/metadata";
 import "./globals.css";
 
@@ -82,6 +83,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <WhatsAppFloat />
       </body>
     </html>
   );
