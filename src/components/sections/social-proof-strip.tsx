@@ -1,4 +1,4 @@
-import { Award, Star, ThumbsUp } from "lucide-react";
+import { Award, Star, ThumbsUp, Trophy } from "lucide-react";
 
 export default function SocialProofStrip() {
   return (
@@ -6,7 +6,7 @@ export default function SocialProofStrip() {
       <div className="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-6 md:flex md:items-center md:justify-center md:gap-0 md:divide-x md:divide-white/10">
 
-          <div className="flex items-center gap-3 md:px-8">
+          <div className="flex items-center gap-3 md:px-6">
             <div className="flex flex-col">
               <span className="text-3xl font-black leading-none text-ev-gold">9.1</span>
               <span className="text-[10px] uppercase tracking-widest text-white/40">/ 10</span>
@@ -17,7 +17,7 @@ export default function SocialProofStrip() {
             </div>
           </div>
 
-          <div className="flex items-center gap-3 md:px-8">
+          <div className="flex items-center gap-3 md:px-6">
             <Star className="size-5 shrink-0 text-ev-gold" aria-hidden="true" />
             <div className="flex flex-col">
               <span className="text-sm font-semibold text-white">TripAdvisor</span>
@@ -25,15 +25,23 @@ export default function SocialProofStrip() {
             </div>
           </div>
 
-          <div className="flex items-center gap-3 md:px-8">
+          <div className="flex items-center gap-3 md:px-6">
             <Award className="size-5 shrink-0 text-ev-gold" aria-hidden="true" />
             <div className="flex flex-col">
-              <span className="text-sm font-semibold text-white">Praia Bandeira Azul</span>
+              <span className="text-sm font-semibold text-white">Bandeira Azul</span>
               <span className="text-xs text-white/50">Certificação Blue Flag</span>
             </div>
           </div>
 
-          <div className="flex items-center gap-3 md:px-8">
+          <div className="flex items-center gap-3 md:px-6">
+            <Trophy className="size-5 shrink-0 text-ev-gold" aria-hidden="true" />
+            <div className="flex flex-col">
+              <span className="text-sm font-semibold text-white">PEV Hall of Fame</span>
+              <span className="text-xs text-white/50">Reconhecimento 2019</span>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-3 md:px-6">
             <ThumbsUp className="size-5 shrink-0 text-ev-gold" aria-hidden="true" />
             <div className="flex flex-col">
               <span className="text-sm font-semibold text-white">+30 anos</span>
