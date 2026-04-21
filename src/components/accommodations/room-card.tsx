@@ -3,7 +3,7 @@
 import { useState, useCallback } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { ChevronLeft, ChevronRight, Users } from "lucide-react"
+import { ChevronLeft, ChevronRight, PawPrint, Users } from "lucide-react"
 
 import { buttonVariants } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -86,6 +86,12 @@ export default function RoomCard({ room }: RoomCardProps) {
               ))}
             </div>
           </>
+        )}
+
+        {room.petFriendly && (
+          <div className="absolute left-3 top-3 z-20 flex items-center gap-1 rounded-full bg-ev-gold/95 px-2.5 py-1 text-xs font-semibold text-ev-neutral-dark shadow">
+            <PawPrint className="size-3" /> Pet Friendly
+          </div>
         )}
       </div>
 
