@@ -1,11 +1,34 @@
-import { Briefcase, Heart, TreePine, Users } from "lucide-react"
+import {
+  Briefcase,
+  Camera,
+  Flower2,
+  Heart,
+  Images,
+  Music,
+  PartyPopper,
+  PawPrint,
+  Sparkles,
+  Video,
+  type LucideIcon,
+} from "lucide-react"
 
 import type { EventType } from "@/data/eventos"
 
-const icons = { Heart, Briefcase, TreePine, Users }
+const iconMap: Record<string, LucideIcon> = {
+  Heart,
+  PartyPopper,
+  PawPrint,
+  Flower2,
+  Camera,
+  Briefcase,
+  Music,
+  Sparkles,
+  Images,
+  Video,
+}
 
 export default function EventTypeCard({ event }: { event: EventType }) {
-  const Icon = icons[event.icon as keyof typeof icons]
+  const Icon = iconMap[event.icon]
 
   return (
     <article className="rounded-xl bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
