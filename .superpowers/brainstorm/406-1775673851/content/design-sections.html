@@ -1,0 +1,170 @@
+<style>
+  :root {
+    --ev-primary: #1B6CA8;
+    --ev-dark: #1C1C1B;
+    --ev-light: #F7F3EE;
+    --ev-gold: #C9A96E;
+  }
+  .page-sim { border: 2px solid #e2e8f0; border-radius: 10px; overflow: hidden; margin: 1.2rem 0; font-family: 'Georgia', serif; }
+  .page-label { background: #1e293b; color: white; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; padding: 0.4rem 0.8rem; text-transform: uppercase; display: flex; justify-content: space-between; align-items: center; }
+  .page-label span { font-weight: 400; opacity: 0.6; text-transform: none; font-size: 0.68rem; }
+
+  /* Section 1: Social proof strip */
+  .social-strip { background: var(--ev-dark); padding: 0.9rem 1.5rem; display: flex; justify-content: center; gap: 3rem; align-items: center; flex-wrap: wrap; }
+  .strip-item { display: flex; align-items: center; gap: 0.5rem; color: white; font-size: 0.82rem; }
+  .strip-icon { opacity: 0.7; font-size: 1rem; }
+  .strip-score { font-size: 1.4rem; font-weight: 800; color: var(--ev-gold); line-height: 1; }
+  .strip-detail { display: flex; flex-direction: column; }
+  .strip-detail strong { color: white; font-size: 0.82rem; }
+  .strip-detail small { color: #9ca3af; font-size: 0.68rem; }
+  .strip-divider { width: 1px; height: 2rem; background: #374151; }
+
+  /* Section 2: Piscina & Lazer */
+  .piscina-section { background: var(--ev-light); padding: 2rem 1.5rem; }
+  .section-badge { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ev-primary); margin-bottom: 0.4rem; }
+  .section-title { font-size: 1.6rem; font-weight: 700; color: var(--ev-dark); margin: 0 0 0.3rem; }
+  .section-sub { color: #6b7280; font-size: 0.85rem; margin-bottom: 1.2rem; }
+  .piscina-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+  .pool-img-main { background: linear-gradient(135deg, #0ea5e9 0%, #0369a1 60%, #075985 100%); border-radius: 8px; height: 140px; display: flex; align-items: flex-end; padding: 0.7rem; }
+  .pool-img-sm { background: linear-gradient(135deg, #22d3ee 0%, #0891b2 100%); border-radius: 8px; height: 65px; display: flex; align-items: flex-end; padding: 0.4rem; margin-bottom: 0.5rem; }
+  .pool-img-sm2 { background: linear-gradient(135deg, #6366f1 0%, #4338ca 100%); border-radius: 8px; height: 65px; display: flex; align-items: flex-end; padding: 0.4rem; }
+  .img-caption { color: white; font-size: 0.62rem; font-weight: 600; letter-spacing: 0.04em; background: rgba(0,0,0,0.4); padding: 0.15rem 0.4rem; border-radius: 4px; }
+  .amenity-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.8rem; }
+  .chip { background: white; border: 1px solid #d1d5db; border-radius: 999px; padding: 0.2rem 0.7rem; font-size: 0.72rem; color: #374151; }
+
+  /* Section 3: Gastronomia */
+  .gastro-section { background: white; padding: 2rem 1.5rem; }
+  .gastro-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 1.2rem; align-items: center; }
+  .gastro-img { background: linear-gradient(160deg, #92400e 0%, #78350f 50%, #451a03 100%); border-radius: 8px; height: 130px; display: flex; align-items: flex-end; padding: 0.7rem; }
+  .gastro-text { }
+  .gastro-text p { font-size: 0.8rem; color: #4b5563; line-height: 1.55; margin: 0 0 0.8rem; }
+  .gastro-detail { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .gastro-item { font-size: 0.72rem; color: #374151; display: flex; align-items: center; gap: 0.3rem; }
+  .gastro-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--ev-primary); flex-shrink: 0; }
+  .cta-mini { display: inline-block; background: var(--ev-primary); color: white; font-size: 0.72rem; font-weight: 600; padding: 0.4rem 0.9rem; border-radius: 4px; margin-top: 0.7rem; }
+
+  /* Notes */
+  .design-note { background: #fffbeb; border-left: 3px solid #f59e0b; padding: 0.6rem 0.8rem; font-size: 0.78rem; color: #78350f; margin: 0.5rem 0; border-radius: 0 4px 4px 0; }
+  .approve-row { display: flex; gap: 0.8rem; margin-top: 0.5rem; flex-wrap: wrap; }
+</style>
+
+<h2>Diseño de las 3 secciones — Opción A</h2>
+<p class="subtitle">Wireframes de cómo quedaría cada adición. Hacé clic en las que aprobás.</p>
+
+<div class="options" data-multiselect>
+
+  <!-- SECCIÓN 1: Social Proof Strip -->
+  <div class="option" data-choice="rating" onclick="toggleSelect(this)">
+    <div class="letter">1</div>
+    <div class="content">
+      <h3>Strip de Social Proof — Home (bajo el hero)</h3>
+      <p style="font-size:0.82rem;color:#6b7280;margin:0.3rem 0 0.8rem">Banda oscura con rating Booking, años de experiencia y certificaciones. Aparece justo debajo del hero, antes del intro strip actual.</p>
+      <div class="page-sim">
+        <div class="page-label">/ home <span>debajo del hero</span></div>
+        <div class="social-strip">
+          <div class="strip-item">
+            <div>
+              <div class="strip-score">9.0</div>
+            </div>
+            <div class="strip-detail">
+              <strong>Booking.com</strong>
+              <small>337 avaliações verificadas</small>
+            </div>
+          </div>
+          <div class="strip-divider"></div>
+          <div class="strip-item">
+            <span class="strip-icon">⭐</span>
+            <div class="strip-detail">
+              <strong>TripAdvisor</strong>
+              <small>Excelente</small>
+            </div>
+          </div>
+          <div class="strip-divider"></div>
+          <div class="strip-item">
+            <span class="strip-icon">🏖️</span>
+            <div class="strip-detail">
+              <strong>Praia Bandeira Azul</strong>
+              <small>Certificação Blue Flag</small>
+            </div>
+          </div>
+          <div class="strip-divider"></div>
+          <div class="strip-item">
+            <span class="strip-icon">🏨</span>
+            <div class="strip-detail">
+              <strong>+30 anos</strong>
+              <small>de hospitalidade</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="design-note">💡 Fondo oscuro contrasta con el hero. Genera confianza inmediata antes de que el visitante haga scroll.</div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 2: Piscina & Lazer -->
+  <div class="option" data-choice="piscina" onclick="toggleSelect(this)">
+    <div class="letter">2</div>
+    <div class="content">
+      <h3>Sección "Piscina & Lazer" — /a-pousada</h3>
+      <p style="font-size:0.82rem;color:#6b7280;margin:0.3rem 0 0.8rem">Va después de las amenidades actuales. Grid de fotos + chips de características del área acuática.</p>
+      <div class="page-sim">
+        <div class="page-label">/a-pousada <span>después de Amenidades</span></div>
+        <div class="piscina-section">
+          <div class="section-badge">Lazer & Bem-estar</div>
+          <div class="section-title">Piscinas & Área de Lazer</div>
+          <div class="section-sub">Relaxe em meio à natureza com vista para o mar</div>
+          <div class="piscina-grid">
+            <div class="pool-img-main"><span class="img-caption">Piscina externa · vista mar</span></div>
+            <div>
+              <div class="pool-img-sm"><span class="img-caption">Piscina climatizada</span></div>
+              <div class="pool-img-sm2"><span class="img-caption">Jacuzzi privativo</span></div>
+            </div>
+          </div>
+          <div class="amenity-chips">
+            <span class="chip">🌊 Piscina externa</span>
+            <span class="chip">♨️ Piscina climatizada</span>
+            <span class="chip">🛁 Jacuzzis</span>
+            <span class="chip">🏐 Vôlei de praia</span>
+            <span class="chip">🪑 Área de descanso</span>
+            <span class="chip">🚿 Duchas externas</span>
+          </div>
+        </div>
+      </div>
+      <div class="design-note">💡 Mismo estilo visual que las amenidades existentes. Las fotos reales de Flickr ya disponibles (praia-04.jpg, etc.).</div>
+    </div>
+  </div>
+
+  <!-- SECCIÓN 3: Gastronomia -->
+  <div class="option" data-choice="gastro" onclick="toggleSelect(this)">
+    <div class="letter">3</div>
+    <div class="content">
+      <h3>Sección "Gastronomia" — /a-pousada</h3>
+      <p style="font-size:0.82rem;color:#6b7280;margin:0.3rem 0 0.8rem">Va después de Piscina & Lazer. Layout imagen-izquierda + texto-derecha, consistente con el resto de /a-pousada.</p>
+      <div class="page-sim">
+        <div class="page-label">/a-pousada <span>después de Piscina & Lazer</span></div>
+        <div class="gastro-section">
+          <div class="section-badge">Restaurante</div>
+          <div class="section-title">Gastronomia à Beira-Mar</div>
+          <div style="height:0.6rem"></div>
+          <div class="gastro-grid">
+            <div class="gastro-img"><span class="img-caption" style="color:white;font-size:0.62rem;font-weight:600;background:rgba(0,0,0,0.4);padding:0.15rem 0.4rem;border-radius:4px;">Restaurante · Chef Diogo</span></div>
+            <div class="gastro-text">
+              <p>Sabores da culinária regional e internacional com vista privilegiada para o mar. O chef Diogo prepara pratos que celebram os ingredientes locais de Santa Catarina.</p>
+              <div class="gastro-detail">
+                <div class="gastro-item"><div class="gastro-dot"></div>Janta Qui–Sáb 19h–22h</div>
+                <div class="gastro-item"><div class="gastro-dot"></div>Almoço diário 12h–15h</div>
+                <div class="gastro-item"><div class="gastro-dot"></div>Café da manhã incluso</div>
+                <div class="gastro-item"><div class="gastro-dot"></div>Cardápio regional</div>
+              </div>
+              <div class="cta-mini">Ver cardápio →</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="design-note">💡 Layout consistente con la sección "Café da Manhã" existente en /a-pousada. El CTA puede linkear a Instagram o a un PDF del menú.</div>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:1.2rem">Seleccioná las secciones que aprobás (podés marcar las 3) y confirmá en el chat.</p>

@@ -1,0 +1,74 @@
+<style>
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0; }
+  .col { border-radius: 8px; padding: 1.2rem; }
+  .col-has { background: #f0fdf4; border: 1px solid #86efac; }
+  .col-missing { background: #fef2f2; border: 1px solid #fca5a5; }
+  .col-title { font-weight: 700; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.8rem; }
+  .col-has .col-title { color: #16a34a; }
+  .col-missing .col-title { color: #dc2626; }
+  .item { display: flex; gap: 0.5rem; align-items: flex-start; margin: 0.4rem 0; font-size: 0.85rem; line-height: 1.4; }
+  .item span { flex: 1; }
+  .badge { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 999px; font-size: 0.7rem; font-weight: 600; white-space: nowrap; }
+  .badge-high { background: #fee2e2; color: #b91c1c; }
+  .badge-med { background: #fef9c3; color: #854d0e; }
+  .badge-low { background: #e0f2fe; color: #0369a1; }
+  .section-label { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: #9ca3af; letter-spacing: 0.08em; margin: 1.5rem 0 0.5rem; }
+  .conversion-panel { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 8px; padding: 1.2rem; margin: 1.5rem 0; }
+  .conversion-panel h3 { color: #c2410c; margin: 0 0 0.8rem; font-size: 0.95rem; }
+  .conv-row { display: flex; justify-content: space-between; align-items: center; padding: 0.3rem 0; border-bottom: 1px solid #fed7aa; font-size: 0.83rem; }
+  .conv-row:last-child { border-bottom: none; }
+  .impact { font-weight: 700; font-size: 0.75rem; }
+  .impact-critical { color: #b91c1c; }
+  .impact-high { color: #c2410c; }
+  .impact-med { color: #b45309; }
+</style>
+
+<h2>Análisis de brechas — Sitio actual vs. Original</h2>
+<p class="subtitle">¿Qué tiene el sitio original que falta en el rediseño?</p>
+
+<div class="grid-2">
+  <div class="col col-has">
+    <div class="col-title">✅ Ya existe en el nuevo sitio</div>
+    <div class="item"><span>Hero animado con 2 CTAs de reserva</span></div>
+    <div class="item"><span>Intro strip: 30 años / beira-mar / natureza</span></div>
+    <div class="item"><span>Preview de 4 tipos de acomodaciones</span></div>
+    <div class="item"><span>About teaser → /a-pousada</span></div>
+    <div class="item"><span>Events teaser → /eventos</span></div>
+    <div class="item"><span>3 testimonios genéricos + estrellas</span></div>
+    <div class="item"><span>Location section con mapa Google</span></div>
+    <div class="item"><span>Página /acomodacoes con filtros + carousel</span></div>
+    <div class="item"><span>Página /a-historia con timeline</span></div>
+    <div class="item"><span>Página /a-pousada con 8 amenidades</span></div>
+    <div class="item"><span>Formulario de contacto en /eventos</span></div>
+    <div class="item"><span>SEO / Schema.org / Open Graph</span></div>
+    <div class="item"><span>Logos: Blue Flag, WTTC Safe Travels</span></div>
+  </div>
+  <div class="col col-missing">
+    <div class="col-title">❌ Falta / sub-representado</div>
+    <div class="item"><span>Piscina externa + piscina climatizada + jacuzzis</span> <span class="badge badge-high">crítico</span></div>
+    <div class="item"><span>Restaurante frente al mar (chef Diogo)</span> <span class="badge badge-high">crítico</span></div>
+    <div class="item"><span>Rating Booking 9.0/10 — 337 reseñas reales</span> <span class="badge badge-high">crítico</span></div>
+    <div class="item"><span>Página /atividades (snorkel, vóley, fauna)</span> <span class="badge badge-med">alto</span></div>
+    <div class="item"><span>Mascotas permitidas</span> <span class="badge badge-med">alto</span></div>
+    <div class="item"><span>25 unidades — chalés hasta 10 personas</span> <span class="badge badge-med">alto</span></div>
+    <div class="item"><span>Galería lightbox (no solo grid)</span> <span class="badge badge-med">alto</span></div>
+    <div class="item"><span>Distancias / puntos de interés en mapa</span> <span class="badge badge-med">alto</span></div>
+    <div class="item"><span>FAQ (check-in/out, mascotas, cancelación)</span> <span class="badge badge-med">alto</span></div>
+    <div class="item"><span>Certificaciones destacadas como sello de venta</span> <span class="badge badge-low">medio</span></div>
+    <div class="item"><span>Playa Blue Flag: "casi privada para huéspedes"</span> <span class="badge badge-low">medio</span></div>
+    <div class="item"><span>Dentro de la Mata Atlântica (única en la región)</span> <span class="badge badge-low">medio</span></div>
+    <div class="item"><span>Video del lugar</span> <span class="badge badge-low">medio</span></div>
+  </div>
+</div>
+
+<div class="conversion-panel">
+  <h3>🛎️ Elementos de conversión faltantes (best practices hoteleras)</h3>
+  <div class="conv-row"><span>Rating externo visible (Booking 9.0 / TripAdvisor)</span><span class="impact impact-critical">CRÍTICO para confianza</span></div>
+  <div class="conv-row"><span>Piscinas y spa — el original tiene 3 áreas acuáticas</span><span class="impact impact-critical">CRÍTICO para venta</span></div>
+  <div class="conv-row"><span>Restaurante propio — diferenciador frente a competencia</span><span class="impact impact-high">ALTO</span></div>
+  <div class="conv-row"><span>Galería con lightbox — fotos que "vendan el sueño"</span><span class="impact impact-high">ALTO</span></div>
+  <div class="conv-row"><span>FAQ — reduce fricción antes de reservar</span><span class="impact impact-high">ALTO</span></div>
+  <div class="conv-row"><span>Actividades — "qué voy a hacer ahí" es clave de decisión</span><span class="impact impact-med">MEDIO</span></div>
+</div>
+
+<p class="subtitle" style="margin-top:1rem">👆 Esto es el análisis. En la próxima pantalla te propongo 3 enfoques para atacar estas brechas — ¿seguimos?</p>

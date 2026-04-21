@@ -1,0 +1,99 @@
+<style>
+  .approach { border-radius: 10px; padding: 1.4rem; margin: 1rem 0; border: 2px solid transparent; cursor: pointer; transition: all 0.2s; }
+  .approach:hover { transform: translateY(-2px); }
+  .approach-a { background: #f0f9ff; border-color: #7dd3fc; }
+  .approach-b { background: #fdf4ff; border-color: #d8b4fe; }
+  .approach-c { background: #fff7ed; border-color: #fdba74; }
+  .approach-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; }
+  .approach-letter { width: 2rem; height: 2rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1rem; flex-shrink: 0; }
+  .a-letter { background: #0ea5e9; color: white; }
+  .b-letter { background: #a855f7; color: white; }
+  .c-letter { background: #f97316; color: white; }
+  .approach-title { font-weight: 700; font-size: 1.05rem; }
+  .approach-tag { font-size: 0.7rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 999px; margin-left: auto; }
+  .tag-a { background: #bae6fd; color: #0369a1; }
+  .tag-b { background: #e9d5ff; color: #7e22ce; }
+  .tag-c { background: #fed7aa; color: #c2410c; }
+  .approach-desc { font-size: 0.88rem; color: #4b5563; margin-bottom: 0.8rem; line-height: 1.5; }
+  .what-changes { list-style: none; padding: 0; margin: 0; }
+  .what-changes li { font-size: 0.83rem; padding: 0.25rem 0; display: flex; gap: 0.5rem; }
+  .what-changes li::before { content: "→"; color: #6b7280; }
+  .tradeoffs { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 0.8rem; font-size: 0.78rem; }
+  .pro { color: #16a34a; }
+  .con { color: #dc2626; }
+  .rec-badge { display: inline-flex; align-items: center; gap: 0.3rem; background: #fef9c3; color: #854d0e; font-size: 0.72rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 999px; margin-left: 0.5rem; }
+  .scope-box { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; font-size: 0.85rem; }
+  .scope-box strong { color: #1e293b; }
+</style>
+
+<h2>3 enfoques para las brechas críticas</h2>
+<p class="subtitle">Piscinas/jacuzzis · Restaurante · Rating 9.0/10 Booking</p>
+
+<div class="scope-box">
+  <strong>Scope acordado:</strong> Solo las 3 brechas críticas primero. Atividades, FAQ y el resto quedan para después.
+</div>
+
+<div class="options">
+
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Secciones nuevas en páginas existentes <span class="rec-badge">⭐ Recomendado</span></h3>
+      <p>Agregar las 3 cosas donde ya tiene sentido en el sitio actual: piscinas/spa en <em>/a-pousada</em>, restaurante en <em>/a-pousada</em>, y un strip de social proof con rating real en el <em>home</em>.</p>
+      <ul class="what-changes" style="margin-top:0.5rem">
+        <li>Nueva sección "Piscina &amp; Lazer" en /a-pousada (con fotos, jacuzzis)</li>
+        <li>Nueva sección "Gastronomia" en /a-pousada (restaurante + chef)</li>
+        <li>Strip de "Booking 9.0/10 · 337 reseñas" visible en home</li>
+        <li>Rating badge en header / hero como prueba social inmediata</li>
+      </ul>
+      <div class="tradeoffs">
+        <div><span class="pro">✓ Rápido de implementar</span></div>
+        <div><span class="con">✗ /a-pousada queda más larga</span></div>
+        <div><span class="pro">✓ No agrega páginas nuevas</span></div>
+        <div><span class="con">✗ Restaurante no tiene su propia URL</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Nueva página /comodidades + social proof en home</h3>
+      <p>Crear <em>/comodidades</em> (o /estrutura) con piscinas, restaurante, spa, churrasqueira — todo junto. El rating va al home como strip.</p>
+      <ul class="what-changes" style="margin-top:0.5rem">
+        <li>Nueva página /comodidades con secciones: Piscinas · Restaurante · Lazer</li>
+        <li>Nav agrega "Comodidades" como ítem</li>
+        <li>Strip de Booking rating en home (debajo del hero)</li>
+        <li>Preview de comodidades en home como teaser</li>
+      </ul>
+      <div class="tradeoffs">
+        <div><span class="pro">✓ Restaurante y piscinas tienen peso propio</span></div>
+        <div><span class="con">✗ Más trabajo, nueva ruta + nav</span></div>
+        <div><span class="pro">✓ Escalable para agregar más después</span></div>
+        <div><span class="con">✗ La nav se vuelve más larga</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Inyección quirúrgica en home + sección en /a-pousada</h3>
+      <p>Social proof (rating) al home directamente en el intro strip. Piscinas y restaurante como secciones compactas en /a-pousada. Foco en impacto máximo con el mínimo de cambios.</p>
+      <ul class="what-changes" style="margin-top:0.5rem">
+        <li>Intro strip en home: 30 años · Beira-mar · Booking 9.0 · Piscina</li>
+        <li>2 secciones compactas en /a-pousada: piscina + restaurante</li>
+        <li>Badge de rating también en cards de acomodaciones</li>
+      </ul>
+      <div class="tradeoffs">
+        <div><span class="pro">✓ Menor superficie de cambio</span></div>
+        <div><span class="con">✗ Piscinas/restaurante menos destacados</span></div>
+        <div><span class="pro">✓ El rating aparece en el punto de decisión</span></div>
+        <div><span class="con">✗ Menos visual impact individual</span></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:1.5rem">Hacé clic en la opción que preferís (o contame en el chat)</p>
