@@ -6,6 +6,7 @@ import IntroStrip from "@/components/sections/intro-strip";
 import Location from "@/components/sections/location";
 import SocialProofStrip from "@/components/sections/social-proof-strip";
 import Testimonials from "@/components/sections/testimonials";
+import TrustBadges from "@/components/sections/trust-badges";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata({
@@ -25,6 +26,7 @@ export default function Home() {
       <AboutTeaser />
       <EventsTeaser />
       <Testimonials />
+      <TrustBadges />
       <Location />
     </>
   );
