@@ -2,6 +2,7 @@ import Image from "next/image";
 import {
   Car,
   Coffee,
+  PawPrint,
   ShieldCheck,
   Trees,
   UtensilsCrossed,
@@ -9,6 +10,8 @@ import {
   Wifi,
   Wind,
 } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+import { Section } from "@/components/ui/section";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata({
@@ -157,6 +160,50 @@ export default function APousadaPage() {
           </div>
         </div>
       </section>
+
+      {/* Pet Friendly */}
+      <Section className="bg-white">
+        <div className="grid items-center gap-10 lg:grid-cols-[1fr_1.1fr]">
+          <div className="order-2 lg:order-1">
+            <Badge variant="muted" className="bg-ev-gold/15 text-ev-neutral-dark">
+              Pet Friendly
+            </Badge>
+            <h2 className="mt-3 font-heading text-3xl text-ev-neutral-dark sm:text-4xl">
+              Seu melhor amigo também é bem-vindo
+            </h2>
+            <p className="mt-4 text-base leading-7 text-muted-foreground">
+              Somos Pet Friendly em todas as acomodações. Amamos animais e
+              oferecemos estrutura para que sua família viaje completa: áreas
+              verdes dentro da Mata Atlântica, caminhos para passeios e
+              recepção calorosa para todos os porte.
+            </p>
+            <ul className="mt-6 grid gap-3 text-sm text-ev-neutral-dark sm:grid-cols-2">
+              <li className="flex items-center gap-2">
+                <PawPrint className="size-4 text-ev-primary" /> Aceito em todas as unidades
+              </li>
+              <li className="flex items-center gap-2">
+                <PawPrint className="size-4 text-ev-primary" /> Áreas verdes privativas
+              </li>
+              <li className="flex items-center gap-2">
+                <PawPrint className="size-4 text-ev-primary" /> 9.000 m² em Mata Atlântica
+              </li>
+              <li className="flex items-center gap-2">
+                <PawPrint className="size-4 text-ev-primary" /> Sem taxa adicional
+              </li>
+            </ul>
+          </div>
+          <div className="relative order-1 aspect-[4/3] overflow-hidden rounded-2xl shadow-sm lg:order-2">
+            <Image
+              src="/assets/images/jardim_202.jpg"
+              alt="Áreas verdes da pousada onde pets podem se divertir"
+              fill
+              quality={85}
+              sizes="(max-width: 1024px) 100vw, 55vw"
+              className="object-cover"
+            />
+          </div>
+        </div>
+      </Section>
 
       {/* Piscina & Lazer */}
       <section className="bg-[#F7F3EE]">
