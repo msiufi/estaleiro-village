@@ -14,6 +14,7 @@ const navigationLinks = [
   { href: '/a-historia', label: 'A História' },
   { href: '/acomodacoes', label: 'Acomodações' },
   { href: '/atividades', label: 'Atividades' },
+  { href: '/galeria', label: 'Galeria' },
   { href: '/eventos', label: 'Eventos' },
 ]
 
