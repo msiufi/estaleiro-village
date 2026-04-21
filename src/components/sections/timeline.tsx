@@ -1,48 +1,6 @@
 import Image from "next/image";
 
-const timelineItems = [
-  {
-    year: "1994",
-    title: "Fundação",
-    description:
-      "A família Estaleiro abre as portas da pousada na Praia do Estaleiro, começando uma história de amor pelo mar e pela hospitalidade.",
-    image:
-      "/assets/images/47aad0_749ac6df1a064052b333b452692f9592_mv2_d_3968_2976_s_4_2.jpg",
-    imageAlt: "Foto histórica da Pousada Estaleiro Village, fundação em 1994",
-  },
-  {
-    year: "2000",
-    title: "Crescimento",
-    description:
-      "Novos chalés e acomodações são construídos para atender à crescente demanda de hóspedes que buscam refúgio e tranquilidade.",
-    image: "/assets/images/jardim_202.jpg",
-    imageAlt: "Jardins da Pousada Estaleiro Village",
-  },
-  {
-    year: "2010",
-    title: "Renovação",
-    description:
-      "A pousada passa por uma reforma completa, incorporando elementos sustentáveis e preservando o charme rústico que encanta os hóspedes.",
-    image: "/assets/images/47aad0_33762d8f54c04590aeb08d2109eceeb3_mv2.png",
-    imageAlt: "Área externa renovada da Pousada Estaleiro Village",
-  },
-  {
-    year: "2018",
-    title: "Reconhecimento",
-    description:
-      "Estaleiro Village recebe certificações de turismo sustentável e é eleita uma das melhores pousadas boutique do litoral catarinense.",
-    image: "/assets/images/frente_20mar_202.jpg",
-    imageAlt: "Vista da frente da Pousada Estaleiro Village voltada para o mar",
-  },
-  {
-    year: "2026",
-    title: "Presente",
-    description:
-      "Com mais de 30 anos de história, continuamos a escrever nossa história à beira-mar, renovando espaços e mantendo vivo o espírito acolhedor que nos define desde 1994.",
-    image: "/assets/images/IMG_20251125_150745.jpg",
-    imageAlt: "Pousada Estaleiro Village hoje",
-  },
-] as const;
+import { timelineItems } from "@/data/historia";
 
 export default function Timeline() {
   return (
@@ -86,7 +44,7 @@ export default function Timeline() {
                   >
                     <Image
                       src={item.image}
-                      alt={item.imageAlt}
+                      alt={`${item.title} — Estaleiro Village (${item.year})`}
                       fill
                       className="object-cover"
                       sizes="(max-width: 1024px) 100vw, 50vw"

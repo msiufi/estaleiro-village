@@ -30,15 +30,18 @@ export default function AHistoriaPage() {
       <section className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6 lg:px-8">
         <div className="space-y-5 text-base leading-8 text-muted-foreground">
           <p>
-            Há 30 anos, a Estaleiro Village cultiva uma história à beira-mar em
-            Balneário Camboriú, nascida do desejo de criar um lugar acolhedor
-            onde o tempo corre mais devagar e a natureza dita o ritmo dos dias.
+            Tudo começou em 1986, quando David e Kitty — um casal argentino
+            apaixonado pelo Brasil — ergueram as primeiras duas cabanas em
+            meio à Mata Atlântica da Praia do Estaleiro. O sonho era simples e
+            profundo: um refúgio onde hospedagem, natureza e família
+            caminhassem juntas.
           </p>
           <p>
-            Construída com herança familiar, amor pelo mar e dedicação em
-            receber bem, a pousada cresceu sem perder sua essência: abrir as
-            portas para hóspedes que buscam descanso genuíno, afeto nos detalhes
-            e memórias que permanecem depois da viagem.
+            Quatro décadas depois, a pousada é hoje um charmoso complexo
+            turístico com 11 acomodações, 9.000 m² de reserva privada e três
+            gerações da família envolvidas diretamente na operação. A filosofia
+            original se mantém: &ldquo;respeito e integração à mata&rdquo; — e
+            cada hóspede é recebido como parte da família Estaleiro Village.
           </p>
         </div>
       </section>
