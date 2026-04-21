@@ -15,10 +15,41 @@ export default function Location() {
             <div>
               <h3 className="font-semibold text-ev-neutral-dark">Endereço</h3>
               <p>
+                Av. L.A.P. Rodesindo Pavan, nº 3996
+                <br />
                 Praia do Estaleiro
                 <br />
-                Balneário Camboriú - SC
+                Balneário Camboriú - SC, CEP 88334-000
               </p>
+            </div>
+            <div>
+              <h3 className="font-semibold text-ev-neutral-dark">Telefone</h3>
+              <a
+                href="tel:+554799112-5200"
+                className="text-ev-primary transition hover:underline"
+              >
+                (47) 9 9112-5200
+              </a>
+            </div>
+            <div>
+              <h3 className="font-semibold text-ev-neutral-dark">WhatsApp</h3>
+              <a
+                href="https://wa.me/5547991125300"
+                target="_blank"
+                rel="noreferrer"
+                className="text-ev-primary transition hover:underline"
+              >
+                (47) 9 9112-5300
+              </a>
+            </div>
+            <div>
+              <h3 className="font-semibold text-ev-neutral-dark">E-mail</h3>
+              <a
+                href="mailto:pousada@estaleirovillage.com"
+                className="text-ev-primary transition hover:underline"
+              >
+                pousada@estaleirovillage.com
+              </a>
             </div>
             <div>
               <h3 className="font-semibold text-ev-neutral-dark">Instagram</h3>
@@ -31,22 +62,13 @@ export default function Location() {
                 @pousadaestaleirovillageoficial
               </a>
             </div>
-            <div>
-              <h3 className="font-semibold text-ev-neutral-dark">E-mail</h3>
-              <a
-                href="mailto:contato@estaleirovillage.com"
-                className="text-ev-primary transition hover:underline"
-              >
-                contato@estaleirovillage.com
-              </a>
-            </div>
           </div>
         </div>
 
         <div className="aspect-video overflow-hidden rounded-xl shadow-sm">
           <iframe
             title="Mapa da Praia do Estaleiro"
-            src="https://www.google.com/maps?q=-26.9784,-48.6127&z=15&output=embed"
+            src="https://www.google.com/maps?q=Pousada+Estaleiro+Village+Balneario+Camboriu&z=15&output=embed"
             className="h-full w-full border-0"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
