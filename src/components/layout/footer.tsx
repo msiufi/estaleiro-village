@@ -72,12 +72,26 @@ export default function Footer() {
         <div className="space-y-4">
           <h2 className="font-heading text-lg">Contato</h2>
           <div className="space-y-3 text-sm text-white/80">
-            <p>Praia do Estaleiro, Balneário Camboriú, SC</p>
+            <p>Av. L.A.P. Rodesindo Pavan, nº 3996<br />Praia do Estaleiro, Balneário Camboriú - SC<br />CEP 88334-000</p>
             <a
-              href="mailto:contato@estaleirovillage.com"
+              href="tel:+554799112-5200"
               className="block transition-opacity duration-300 hover:opacity-70"
             >
-              contato@estaleirovillage.com
+              Tel: (47) 9 9112-5200
+            </a>
+            <a
+              href="https://wa.me/5547991125300"
+              target="_blank"
+              rel="noreferrer"
+              className="block transition-opacity duration-300 hover:opacity-70"
+            >
+              WhatsApp: (47) 9 9112-5300
+            </a>
+            <a
+              href="mailto:pousada@estaleirovillage.com"
+              className="block transition-opacity duration-300 hover:opacity-70"
+            >
+              pousada@estaleirovillage.com
             </a>
             <a
               href={instagramUrl}
