@@ -4,19 +4,20 @@ import { useState } from "react"
 import Image from "next/image"
 
 import RoomCard from "@/components/accommodations/room-card"
-import { roomTypeLabels, rooms, type RoomType } from "@/data/accommodations"
+import { roomTypeLabels, rooms, type RoomCategory } from "@/data/accommodations"
 
-type FilterKey = "all" | RoomType["type"]
+type FilterKey = "all" | RoomCategory
 
-const filterOrder: FilterKey[] = ["all", "suite", "studio", "flat", "chale"]
-
-const filterLabels: Record<FilterKey, string> = {
-  all: "Todos",
-  suite: roomTypeLabels.suite,
-  studio: roomTypeLabels.studio,
-  flat: roomTypeLabels.flat,
-  chale: roomTypeLabels.chale,
-}
+const filters: Array<{ value: FilterKey; label: string }> = [
+  { value: "all", label: "Todos" },
+  { value: "suite", label: roomTypeLabels.suite },
+  { value: "studio", label: roomTypeLabels.studio },
+  { value: "flat", label: roomTypeLabels.flat },
+  { value: "chale", label: roomTypeLabels.chale },
+  { value: "sobrado", label: roomTypeLabels.sobrado },
+  { value: "loft", label: roomTypeLabels.loft },
+  { value: "duplex", label: roomTypeLabels.duplex },
+]
 
 export default function AccommodacoesPage() {
   const [activeFilter, setActiveFilter] = useState<FilterKey>("all")
@@ -48,14 +49,14 @@ export default function AccommodacoesPage() {
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="my-8 flex flex-wrap justify-center gap-2">
-          {filterOrder.map((filter) => {
-            const isActive = activeFilter === filter
+          {filters.map((filter) => {
+            const isActive = activeFilter === filter.value
 
             return (
               <button
-                key={filter}
+                key={filter.value}
                 type="button"
-                onClick={() => setActiveFilter(filter)}
+                onClick={() => setActiveFilter(filter.value)}
                 className={[
                   "rounded-full border px-4 py-2 text-sm font-medium transition-colors",
                   isActive
@@ -63,7 +64,7 @@ export default function AccommodacoesPage() {
                     : "border-gray-200 bg-white text-gray-600 hover:bg-gray-50",
                 ].join(" ")}
               >
-                {filterLabels[filter]}
+                {filter.label}
               </button>
             )
           })}
