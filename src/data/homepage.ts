@@ -57,36 +57,36 @@ export const introStripItems: IntroStripItem[] = [
 
 export const accommodationsPreview: AccommodationPreviewItem[] = [
   {
-    id: "studio-superior",
-    name: "Studio Superior",
+    id: "suite-frente-mar",
+    name: "Suíte Frente Mar",
     description:
-      "Ambiente aconchegante e funcional para casais que buscam conforto com clima intimista.",
-    image: "/assets/images/Studio_20Sup_20cama.jpg",
-    href: "/acomodacoes",
+      "Suíte premium com vista panorâmica ao oceano e opção de hidromassagem.",
+    image: "/assets/images/frente_20mar_202.jpg",
+    href: "/acomodacoes/suite-frente-mar",
+  },
+  {
+    id: "sobrado-frente-mar",
+    name: "Sobrado Frente Mar",
+    description:
+      "Nosso exclusivo: sobrado com hidromassagem, churrasqueira privativa e vista mar.",
+    image: "/assets/images/sobrado_20ricardo.jpg",
+    href: "/acomodacoes/sobrado-frente-mar",
+  },
+  {
+    id: "torre-oceano",
+    name: "Torre Oceano",
+    description:
+      "Duplex de luxo com vista 270° ao oceano, cama king e mini cozinha completa.",
+    image: "/assets/images/54661554235_216e580305.jpg",
+    href: "/acomodacoes/torre-oceano",
   },
   {
     id: "flat",
     name: "Flat",
     description:
-      "Espaço versátil para estadias mais longas, combinando praticidade e descanso junto ao mar.",
+      "Flat amplo com mini cozinha, varanda com rede e espaço para até 4 pessoas.",
     image: "/assets/images/flat1.jpg",
-    href: "/acomodacoes",
-  },
-  {
-    id: "jardim",
-    name: "Suíte Jardim",
-    description:
-      "Uma hospedagem cercada pelo verde, ideal para quem valoriza sossego e contato com a natureza.",
-    image: "/assets/images/jardim_202.jpg",
-    href: "/acomodacoes",
-  },
-  {
-    id: "chale-sobrado",
-    name: "Chalé Sobrado",
-    description:
-      "Opção charmosa para famílias ou pequenos grupos, com atmosfera acolhedora e privativa.",
-    image: "/assets/images/sobrado_20ricardo.jpg",
-    href: "/acomodacoes",
+    href: "/acomodacoes/flat",
   },
 ];
 
