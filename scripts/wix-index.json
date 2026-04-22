@@ -1,0 +1,589 @@
+{
+  "source": "wix",
+  "base": "https://www.estaleirovillage.com",
+  "scraped_at": "2026-04-22T15:18:36.286Z",
+  "pages": [
+    {
+      "slug": "home",
+      "url": "https://www.estaleirovillage.com/",
+      "title": "▷ Hospedagem | Pousada Estaleiro Village",
+      "image_count": 7,
+      "kind": "section"
+    },
+    {
+      "slug": "a-pousada",
+      "url": "https://www.estaleirovillage.com/a-pousada",
+      "title": "▷ Pousada Estaleiro Village",
+      "image_count": 4,
+      "kind": "section"
+    },
+    {
+      "slug": "atividades",
+      "url": "https://www.estaleirovillage.com/atividades",
+      "title": "▷ Atividades | Pousada Estaleiro Village",
+      "image_count": 4,
+      "kind": "section"
+    },
+    {
+      "slug": "eventos",
+      "url": "https://www.estaleirovillage.com/eventos",
+      "title": "▷ Eventos | Pousada Pev",
+      "image_count": 3,
+      "kind": "section"
+    },
+    {
+      "slug": "a-historia",
+      "url": "https://www.estaleirovillage.com/a-historia",
+      "title": "▷ A História | Pousada Estaleiro Village",
+      "image_count": 2,
+      "kind": "section"
+    },
+    {
+      "slug": "servicos",
+      "url": "https://www.estaleirovillage.com/servicos",
+      "title": "▷ Serviços | O que oferecemos",
+      "image_count": 4,
+      "kind": "section"
+    },
+    {
+      "slug": "chale-b",
+      "url": "https://www.estaleirovillage.com/chale-b",
+      "title": "Chalé B | Pousada Estaleiro Village",
+      "image_count": 6,
+      "kind": "room"
+    },
+    {
+      "slug": "chale-c",
+      "url": "https://www.estaleirovillage.com/chale-c",
+      "title": "Chalé C | Pousada Pev",
+      "image_count": 6,
+      "kind": "room"
+    },
+    {
+      "slug": "duplex-c",
+      "url": "https://www.estaleirovillage.com/duplex-c",
+      "title": "Duplex C | Pousada Pev",
+      "image_count": 6,
+      "kind": "room"
+    },
+    {
+      "slug": "flat",
+      "url": "https://www.estaleirovillage.com/flat",
+      "title": "Flat | Pousada Pev",
+      "image_count": 6,
+      "kind": "room"
+    },
+    {
+      "slug": "loft",
+      "url": "https://www.estaleirovillage.com/loft",
+      "title": "Loft | Pousada Pev",
+      "image_count": 6,
+      "kind": "room"
+    },
+    {
+      "slug": "sobrado-frente-mar",
+      "url": "https://www.estaleirovillage.com/sobrado-frente-mar",
+      "title": "Sobrado Frente Mar | Pousada Pev",
+      "image_count": 6,
+      "kind": "room"
+    },
+    {
+      "slug": "studio",
+      "url": "https://www.estaleirovillage.com/studio",
+      "title": "Studio | Pousada Pev",
+      "image_count": 6,
+      "kind": "room"
+    },
+    {
+      "slug": "studio-superior",
+      "url": "https://www.estaleirovillage.com/studio-superior",
+      "title": "Studio Superior | Pousada Pev",
+      "image_count": 6,
+      "kind": "room"
+    },
+    {
+      "slug": "suite-frente-mar",
+      "url": "https://www.estaleirovillage.com/suite-frente-mar",
+      "title": "Suíte Frente Mar | Pousada Pev",
+      "image_count": 6,
+      "kind": "room"
+    },
+    {
+      "slug": "suite-jardim",
+      "url": "https://www.estaleirovillage.com/suite-jardim",
+      "title": "Suíte Jardim | Pousada Pev",
+      "image_count": 6,
+      "kind": "room"
+    },
+    {
+      "slug": "torre-oceano",
+      "url": "https://www.estaleirovillage.com/torre-oceano",
+      "title": "Torre Oceano | Pousada Pev",
+      "image_count": 6,
+      "kind": "room"
+    }
+  ],
+  "images": [
+    {
+      "fingerprint": "47aad0_d0e0b13ae5a040238e37842347d19f53",
+      "account": "47aad0",
+      "hash": "d0e0b13ae5a040238e37842347d19f53",
+      "ext": "png",
+      "url": "https://static.wixstatic.com/media/47aad0_d0e0b13ae5a040238e37842347d19f53~mv2.png",
+      "filename": "47aad0_d0e0b13ae5a040238e37842347d19f53.png",
+      "sources": [
+        "home"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_cc87ff7938b9487f9775a9c1fc652fc0",
+      "account": "47aad0",
+      "hash": "cc87ff7938b9487f9775a9c1fc652fc0",
+      "ext": "png",
+      "url": "https://static.wixstatic.com/media/47aad0_cc87ff7938b9487f9775a9c1fc652fc0~mv2.png",
+      "filename": "47aad0_cc87ff7938b9487f9775a9c1fc652fc0.png",
+      "sources": [
+        "home"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_e070f2d893504c8b9f9cd5f141f3b2d1",
+      "account": "47aad0",
+      "hash": "e070f2d893504c8b9f9cd5f141f3b2d1",
+      "ext": "png",
+      "url": "https://static.wixstatic.com/media/47aad0_e070f2d893504c8b9f9cd5f141f3b2d1~mv2.png",
+      "filename": "47aad0_e070f2d893504c8b9f9cd5f141f3b2d1.png",
+      "sources": [
+        "home"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_bcb61c45b38644bdbdf5b9b12d400298",
+      "account": "47aad0",
+      "hash": "bcb61c45b38644bdbdf5b9b12d400298",
+      "ext": "png",
+      "url": "https://static.wixstatic.com/media/47aad0_bcb61c45b38644bdbdf5b9b12d400298~mv2.png",
+      "filename": "47aad0_bcb61c45b38644bdbdf5b9b12d400298.png",
+      "sources": [
+        "home"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_d49bcda5b0694f75bdb6bfc54dd81db7",
+      "account": "47aad0",
+      "hash": "d49bcda5b0694f75bdb6bfc54dd81db7",
+      "ext": "png",
+      "url": "https://static.wixstatic.com/media/47aad0_d49bcda5b0694f75bdb6bfc54dd81db7~mv2.png",
+      "filename": "47aad0_d49bcda5b0694f75bdb6bfc54dd81db7.png",
+      "sources": [
+        "home"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_73ec0b538e0f41edb9b6769f54a64ba4",
+      "account": "47aad0",
+      "hash": "73ec0b538e0f41edb9b6769f54a64ba4",
+      "ext": "png",
+      "url": "https://static.wixstatic.com/media/47aad0_73ec0b538e0f41edb9b6769f54a64ba4~mv2.png",
+      "filename": "47aad0_73ec0b538e0f41edb9b6769f54a64ba4.png",
+      "sources": [
+        "home",
+        "a-pousada",
+        "atividades",
+        "eventos",
+        "a-historia",
+        "servicos",
+        "chale-b",
+        "chale-c",
+        "duplex-c",
+        "flat",
+        "loft",
+        "sobrado-frente-mar",
+        "studio",
+        "studio-superior",
+        "suite-frente-mar",
+        "suite-jardim",
+        "torre-oceano"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_3e7d9bc9c02949a096f05f2e052fe0bd",
+      "account": "47aad0",
+      "hash": "3e7d9bc9c02949a096f05f2e052fe0bd",
+      "ext": "png",
+      "url": "https://static.wixstatic.com/media/47aad0_3e7d9bc9c02949a096f05f2e052fe0bd~mv2.png",
+      "filename": "47aad0_3e7d9bc9c02949a096f05f2e052fe0bd.png",
+      "sources": [
+        "home",
+        "a-pousada",
+        "atividades",
+        "eventos",
+        "a-historia",
+        "servicos",
+        "chale-b",
+        "chale-c",
+        "duplex-c",
+        "flat",
+        "loft",
+        "sobrado-frente-mar",
+        "studio",
+        "studio-superior",
+        "suite-frente-mar",
+        "suite-jardim",
+        "torre-oceano"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_fe53d41e91634dd295433c6430771b2e",
+      "account": "47aad0",
+      "hash": "fe53d41e91634dd295433c6430771b2e",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_fe53d41e91634dd295433c6430771b2e~mv2.jpg",
+      "filename": "47aad0_fe53d41e91634dd295433c6430771b2e.jpg",
+      "sources": [
+        "a-pousada"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_6cd12eb573c04c66b9dba34346df8a99",
+      "account": "47aad0",
+      "hash": "6cd12eb573c04c66b9dba34346df8a99",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_6cd12eb573c04c66b9dba34346df8a99~mv2.jpg",
+      "filename": "47aad0_6cd12eb573c04c66b9dba34346df8a99.jpg",
+      "sources": [
+        "a-pousada"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_1925e784e6894dbf8fa4018a5f7bb752",
+      "account": "47aad0",
+      "hash": "1925e784e6894dbf8fa4018a5f7bb752",
+      "ext": "jpeg",
+      "url": "https://static.wixstatic.com/media/47aad0_1925e784e6894dbf8fa4018a5f7bb752~mv2.jpeg",
+      "filename": "47aad0_1925e784e6894dbf8fa4018a5f7bb752.jpeg",
+      "sources": [
+        "atividades"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_a8362b8c7bba4fc1b6d952425bc20387",
+      "account": "47aad0",
+      "hash": "a8362b8c7bba4fc1b6d952425bc20387",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_a8362b8c7bba4fc1b6d952425bc20387~mv2.jpg",
+      "filename": "47aad0_a8362b8c7bba4fc1b6d952425bc20387.jpg",
+      "sources": [
+        "atividades"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_ccc09b7bfa364d69af626996d648cf14",
+      "account": "47aad0",
+      "hash": "ccc09b7bfa364d69af626996d648cf14",
+      "ext": "png",
+      "url": "https://static.wixstatic.com/media/47aad0_ccc09b7bfa364d69af626996d648cf14~mv2.png",
+      "filename": "47aad0_ccc09b7bfa364d69af626996d648cf14.png",
+      "sources": [
+        "eventos",
+        "chale-b",
+        "chale-c",
+        "duplex-c",
+        "flat",
+        "loft",
+        "sobrado-frente-mar",
+        "studio",
+        "studio-superior",
+        "suite-frente-mar",
+        "suite-jardim",
+        "torre-oceano"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_2050adf6e86643309b50580d1689a2e6",
+      "account": "47aad0",
+      "hash": "2050adf6e86643309b50580d1689a2e6",
+      "ext": "png",
+      "url": "https://static.wixstatic.com/media/47aad0_2050adf6e86643309b50580d1689a2e6~mv2.png",
+      "filename": "47aad0_2050adf6e86643309b50580d1689a2e6.png",
+      "sources": [
+        "servicos"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_740ca39b0ecc4fd09520d529959979cf",
+      "account": "47aad0",
+      "hash": "740ca39b0ecc4fd09520d529959979cf",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_740ca39b0ecc4fd09520d529959979cf~mv2.jpg",
+      "filename": "47aad0_740ca39b0ecc4fd09520d529959979cf.jpg",
+      "sources": [
+        "servicos"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_f8b689bcfa1c4772a75974ea6d009cc7",
+      "account": "47aad0",
+      "hash": "f8b689bcfa1c4772a75974ea6d009cc7",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_f8b689bcfa1c4772a75974ea6d009cc7~mv2.jpg",
+      "filename": "47aad0_f8b689bcfa1c4772a75974ea6d009cc7.jpg",
+      "sources": [
+        "chale-b",
+        "chale-c",
+        "duplex-c",
+        "flat",
+        "loft",
+        "sobrado-frente-mar",
+        "studio",
+        "studio-superior",
+        "suite-frente-mar",
+        "suite-jardim",
+        "torre-oceano"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_ba50c2809b4c41a6bc18f326894be933",
+      "account": "47aad0",
+      "hash": "ba50c2809b4c41a6bc18f326894be933",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_ba50c2809b4c41a6bc18f326894be933~mv2.jpg",
+      "filename": "47aad0_ba50c2809b4c41a6bc18f326894be933.jpg",
+      "sources": [
+        "chale-b"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_eac9b8916ba548bdaf4b4de7a4f16a87",
+      "account": "47aad0",
+      "hash": "eac9b8916ba548bdaf4b4de7a4f16a87",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_eac9b8916ba548bdaf4b4de7a4f16a87~mv2.jpg",
+      "filename": "47aad0_eac9b8916ba548bdaf4b4de7a4f16a87.jpg",
+      "sources": [
+        "chale-b"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_612a6fa0f6dc4f7b93be4873cab9787d",
+      "account": "47aad0",
+      "hash": "612a6fa0f6dc4f7b93be4873cab9787d",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_612a6fa0f6dc4f7b93be4873cab9787d~mv2.jpg",
+      "filename": "47aad0_612a6fa0f6dc4f7b93be4873cab9787d.jpg",
+      "sources": [
+        "chale-c"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_7d92076d37064e489a337709fea608d4",
+      "account": "47aad0",
+      "hash": "7d92076d37064e489a337709fea608d4",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_7d92076d37064e489a337709fea608d4~mv2.jpg",
+      "filename": "47aad0_7d92076d37064e489a337709fea608d4.jpg",
+      "sources": [
+        "chale-c"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_21af48f3116642df8e4c886e43bbca56",
+      "account": "47aad0",
+      "hash": "21af48f3116642df8e4c886e43bbca56",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_21af48f3116642df8e4c886e43bbca56~mv2.jpg",
+      "filename": "47aad0_21af48f3116642df8e4c886e43bbca56.jpg",
+      "sources": [
+        "duplex-c"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_9d55ab0317d941cca0977d5f10868467",
+      "account": "47aad0",
+      "hash": "9d55ab0317d941cca0977d5f10868467",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_9d55ab0317d941cca0977d5f10868467~mv2.jpg",
+      "filename": "47aad0_9d55ab0317d941cca0977d5f10868467.jpg",
+      "sources": [
+        "duplex-c"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_fff2c19042c54809a74c2ee9722c7386",
+      "account": "47aad0",
+      "hash": "fff2c19042c54809a74c2ee9722c7386",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_fff2c19042c54809a74c2ee9722c7386~mv2.jpg",
+      "filename": "47aad0_fff2c19042c54809a74c2ee9722c7386.jpg",
+      "sources": [
+        "flat"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_add73130ca1442d6b2b31d3e2dbe9be3",
+      "account": "47aad0",
+      "hash": "add73130ca1442d6b2b31d3e2dbe9be3",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_add73130ca1442d6b2b31d3e2dbe9be3~mv2.jpg",
+      "filename": "47aad0_add73130ca1442d6b2b31d3e2dbe9be3.jpg",
+      "sources": [
+        "flat"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_366d19b903194a528c31fed9f8511bab",
+      "account": "47aad0",
+      "hash": "366d19b903194a528c31fed9f8511bab",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_366d19b903194a528c31fed9f8511bab~mv2.jpg",
+      "filename": "47aad0_366d19b903194a528c31fed9f8511bab.jpg",
+      "sources": [
+        "loft"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_9c0d5ac5ebe54ed7b12e109d9cc01215",
+      "account": "47aad0",
+      "hash": "9c0d5ac5ebe54ed7b12e109d9cc01215",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_9c0d5ac5ebe54ed7b12e109d9cc01215~mv2.jpg",
+      "filename": "47aad0_9c0d5ac5ebe54ed7b12e109d9cc01215.jpg",
+      "sources": [
+        "loft"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_a40c129194144fd3a4a89cede3539409",
+      "account": "47aad0",
+      "hash": "a40c129194144fd3a4a89cede3539409",
+      "ext": "jpeg",
+      "url": "https://static.wixstatic.com/media/47aad0_a40c129194144fd3a4a89cede3539409~mv2.jpeg",
+      "filename": "47aad0_a40c129194144fd3a4a89cede3539409.jpeg",
+      "sources": [
+        "sobrado-frente-mar"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_71dc502aa542482fabc82ef5f13fa55b",
+      "account": "47aad0",
+      "hash": "71dc502aa542482fabc82ef5f13fa55b",
+      "ext": "jpeg",
+      "url": "https://static.wixstatic.com/media/47aad0_71dc502aa542482fabc82ef5f13fa55b~mv2.jpeg",
+      "filename": "47aad0_71dc502aa542482fabc82ef5f13fa55b.jpeg",
+      "sources": [
+        "sobrado-frente-mar"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_b91b53e68d3b4e22923cd0ad00b3072a",
+      "account": "47aad0",
+      "hash": "b91b53e68d3b4e22923cd0ad00b3072a",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_b91b53e68d3b4e22923cd0ad00b3072a~mv2.jpg",
+      "filename": "47aad0_b91b53e68d3b4e22923cd0ad00b3072a.jpg",
+      "sources": [
+        "studio"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_076e55b48769497cab9e1bcfcfd590c6",
+      "account": "47aad0",
+      "hash": "076e55b48769497cab9e1bcfcfd590c6",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_076e55b48769497cab9e1bcfcfd590c6~mv2.jpg",
+      "filename": "47aad0_076e55b48769497cab9e1bcfcfd590c6.jpg",
+      "sources": [
+        "studio"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_25e76001586c4a7e8db06471c24c6b4b",
+      "account": "47aad0",
+      "hash": "25e76001586c4a7e8db06471c24c6b4b",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_25e76001586c4a7e8db06471c24c6b4b~mv2.jpg",
+      "filename": "47aad0_25e76001586c4a7e8db06471c24c6b4b.jpg",
+      "sources": [
+        "studio-superior"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_00a5fb133e9749b8940b07ed3ab2121e",
+      "account": "47aad0",
+      "hash": "00a5fb133e9749b8940b07ed3ab2121e",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_00a5fb133e9749b8940b07ed3ab2121e~mv2.jpg",
+      "filename": "47aad0_00a5fb133e9749b8940b07ed3ab2121e.jpg",
+      "sources": [
+        "studio-superior"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_9e41f1e735a6497594f085deec5f7224",
+      "account": "47aad0",
+      "hash": "9e41f1e735a6497594f085deec5f7224",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_9e41f1e735a6497594f085deec5f7224~mv2.jpg",
+      "filename": "47aad0_9e41f1e735a6497594f085deec5f7224.jpg",
+      "sources": [
+        "suite-frente-mar"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_6a9a2846654d49929f72d43dab4de5eb",
+      "account": "47aad0",
+      "hash": "6a9a2846654d49929f72d43dab4de5eb",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_6a9a2846654d49929f72d43dab4de5eb~mv2.jpg",
+      "filename": "47aad0_6a9a2846654d49929f72d43dab4de5eb.jpg",
+      "sources": [
+        "suite-frente-mar"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_b6dcfa585aca4a49b1f3b580d5134798",
+      "account": "47aad0",
+      "hash": "b6dcfa585aca4a49b1f3b580d5134798",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_b6dcfa585aca4a49b1f3b580d5134798~mv2.jpg",
+      "filename": "47aad0_b6dcfa585aca4a49b1f3b580d5134798.jpg",
+      "sources": [
+        "suite-jardim"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_057a9ad424ff406386ea71b840df5d29",
+      "account": "47aad0",
+      "hash": "057a9ad424ff406386ea71b840df5d29",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_057a9ad424ff406386ea71b840df5d29~mv2.jpg",
+      "filename": "47aad0_057a9ad424ff406386ea71b840df5d29.jpg",
+      "sources": [
+        "suite-jardim"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_d4c62cc5ccb34ccea7052867087a9527",
+      "account": "47aad0",
+      "hash": "d4c62cc5ccb34ccea7052867087a9527",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_d4c62cc5ccb34ccea7052867087a9527~mv2.jpg",
+      "filename": "47aad0_d4c62cc5ccb34ccea7052867087a9527.jpg",
+      "sources": [
+        "torre-oceano"
+      ]
+    },
+    {
+      "fingerprint": "47aad0_3d6f18b8d47a4748abadea0082d35b83",
+      "account": "47aad0",
+      "hash": "3d6f18b8d47a4748abadea0082d35b83",
+      "ext": "jpg",
+      "url": "https://static.wixstatic.com/media/47aad0_3d6f18b8d47a4748abadea0082d35b83~mv2.jpg",
+      "filename": "47aad0_3d6f18b8d47a4748abadea0082d35b83.jpg",
+      "sources": [
+        "torre-oceano"
+      ]
+    }
+  ],
+  "total_images": 37
+}
