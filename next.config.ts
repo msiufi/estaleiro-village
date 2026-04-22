@@ -6,10 +6,12 @@ const nextConfig: NextConfig = {
     root: fileURLToPath(new URL(".", import.meta.url)),
   },
   images: {
+    formats: ["image/avif", "image/webp"],
     // Source images are ~1258px wide — don't request larger sizes
     deviceSizes: [640, 828, 1080, 1200, 1280],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     qualities: [75, 85, 100],
+    minimumCacheTTL: 60 * 60 * 24 * 30,
   },
 };
 
