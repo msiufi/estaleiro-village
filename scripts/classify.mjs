@@ -192,7 +192,11 @@ async function main() {
     const entry = {
       source: 'flickr',
       id: p.id,
-      url: p.url_k || p.url_b,
+      // Use `_b` (1024px) as the default — it is guaranteed to exist for all
+      // public Flickr photos. `_k` (2048px) is often 410 for older uploads
+      // (pre-2013), so fase 3 has to try `_k` then fall back to `_h` then `_b`.
+      url: p.url_b,
+      url_k: p.url_k,
       url_page: p.url_page,
       title: p.title,
       description: p.description,
