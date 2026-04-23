@@ -61,7 +61,7 @@ export const accommodationsPreview: AccommodationPreviewItem[] = [
     name: "Suíte Frente Mar",
     description:
       "Suíte premium com vista panorâmica ao oceano e opção de hidromassagem.",
-    image: "/assets/images/frente_20mar_202.jpg",
+    image: "/assets/images/acomodacoes/suite-frente-mar/suite-frente-mar-01.jpg",
     href: "/acomodacoes/suite-frente-mar",
   },
   {
@@ -69,7 +69,7 @@ export const accommodationsPreview: AccommodationPreviewItem[] = [
     name: "Sobrado Frente Mar",
     description:
       "Nosso exclusivo: sobrado com hidromassagem, churrasqueira privativa e vista mar.",
-    image: "/assets/images/sobrado_20ricardo.jpg",
+    image: "/assets/images/acomodacoes/sobrado-frente-mar/sobrado-frente-mar-01.jpg",
     href: "/acomodacoes/sobrado-frente-mar",
   },
   {
@@ -77,7 +77,7 @@ export const accommodationsPreview: AccommodationPreviewItem[] = [
     name: "Torre Oceano",
     description:
       "Duplex de luxo com vista 270° ao oceano, cama king e mini cozinha completa.",
-    image: "/assets/images/54661554235_216e580305.jpg",
+    image: "/assets/images/acomodacoes/torre-oceano/torre-oceano-01.jpg",
     href: "/acomodacoes/torre-oceano",
   },
   {
@@ -85,7 +85,7 @@ export const accommodationsPreview: AccommodationPreviewItem[] = [
     name: "Flat",
     description:
       "Flat amplo com mini cozinha, varanda com rede e espaço para até 4 pessoas.",
-    image: "/assets/images/flat1.jpg",
+    image: "/assets/images/acomodacoes/flat/flat-01.jpg",
     href: "/acomodacoes/flat",
   },
 ];

@@ -55,6 +55,7 @@ export default function APousadaPage() {
           src="/assets/images/exterior-jardim/exterior-jardim-04.jpg"
           alt="Vista externa da Pousada Estaleiro Village"
           fill
+          priority
           className="object-cover"
           sizes="100vw"
         />

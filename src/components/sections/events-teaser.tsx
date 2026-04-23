@@ -5,7 +5,7 @@ export default function EventsTeaser() {
   return (
     <section className="relative min-h-[400px] overflow-hidden">
       <Image
-        src="/assets/images/47aad0_33762d8f54c04590aeb08d2109eceeb3_mv2.png"
+        src="/assets/images/eventos/eventos-02.jpg"
         alt="Área externa da pousada preparada para eventos"
         fill
         className="object-cover"

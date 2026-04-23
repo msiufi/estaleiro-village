@@ -29,7 +29,7 @@ export default function GaleriaPage() {
     <main>
       <section className="relative h-[40vh] min-h-[300px] w-full overflow-hidden">
         <Image
-          src="/assets/images/frente_20mar_202.jpg"
+          src="/assets/images/exterior-jardim/exterior-jardim-02.jpg"
           alt="Galeria Estaleiro Village"
           fill
           priority
