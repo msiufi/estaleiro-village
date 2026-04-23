@@ -33,54 +33,18 @@ const amenities = [
 ] as const;
 
 const galleryImages = [
-  {
-    src: "/assets/images/47aad0_33762d8f54c04590aeb08d2109eceeb3_mv2.png",
-    alt: "Area externa da Pousada Estaleiro Village",
-  },
-  {
-    src: "/assets/images/47aad0_749ac6df1a064052b333b452692f9592_mv2_d_3968_2976_s_4_2.jpg",
-    alt: "Registro historico da pousada",
-  },
-  {
-    src: "/assets/images/frente_20mar_202.jpg",
-    alt: "Vista da pousada voltada para o mar",
-  },
-  {
-    src: "/assets/images/jardim_202.jpg",
-    alt: "Jardins da Estaleiro Village",
-  },
-  {
-    src: "/assets/images/sobrado_20ricardo.jpg",
-    alt: "Chale da pousada",
-  },
-  {
-    src: "/assets/images/IMG_20251125_150745.jpg",
-    alt: "Foto da propriedade da Estaleiro Village",
-  },
-  {
-    src: "/assets/images/flickr/pousada-08.jpg",
-    alt: "Pousada Estaleiro Village",
-  },
-  {
-    src: "/assets/images/10309741543_e7d8ae74e6_c.jpg",
-    alt: "Pousada Estaleiro Village",
-  },
-  {
-    src: "/assets/images/10430020596_736e0f388b_c.jpg",
-    alt: "Pousada Estaleiro Village",
-  },
-  {
-    src: "/assets/images/36829524845_8e2b17b5b4_c.jpg",
-    alt: "Pousada Estaleiro Village",
-  },
-  {
-    src: "/assets/images/54661554235_216e580305.jpg",
-    alt: "Pousada Estaleiro Village",
-  },
-  {
-    src: "/assets/images/flickr/praia-04.jpg",
-    alt: "Praia do Estaleiro",
-  },
+  { src: "/assets/images/exterior-jardim/exterior-jardim-01.jpg", alt: "Jardins exuberantes da Pousada Estaleiro Village" },
+  { src: "/assets/images/exterior-jardim/exterior-jardim-02.jpg", alt: "Área externa em meio à Mata Atlântica" },
+  { src: "/assets/images/exterior-jardim/exterior-jardim-04.jpg", alt: "Vista panorâmica do complexo da pousada" },
+  { src: "/assets/images/piscina-lazer/piscina-lazer-01.jpg", alt: "Piscina externa com vista para o mar" },
+  { src: "/assets/images/piscina-lazer/piscina-lazer-03.jpg", alt: "Área de lazer e piscina da pousada" },
+  { src: "/assets/images/praia/praia-01.jpg", alt: "Praia do Estaleiro — uma das mais preservadas de SC" },
+  { src: "/assets/images/praia/praia-02.jpg", alt: "Mar cristalino da Praia do Estaleiro" },
+  { src: "/assets/images/gastronomia/gastronomia-01.jpg", alt: "Café da manhã farto e variado" },
+  { src: "/assets/images/gastronomia/gastronomia-03.jpg", alt: "Gastronomia à beira-mar" },
+  { src: "/assets/images/eventos/eventos-01.jpg", alt: "Casamentos e eventos especiais na pousada" },
+  { src: "/assets/images/eventos/eventos-02.jpg", alt: "Celebração com vista privilegiada para o mar" },
+  { src: "/assets/images/exterior-jardim/exterior-jardim-05.jpg", alt: "Natureza e tranquilidade na Estaleiro Village" },
 ] as const;
 
 export default function APousadaPage() {
@@ -88,7 +52,7 @@ export default function APousadaPage() {
     <>
       <section className="relative h-72 overflow-hidden">
         <Image
-          src="/assets/images/47aad0_33762d8f54c04590aeb08d2109eceeb3_mv2.png"
+          src="/assets/images/exterior-jardim/exterior-jardim-04.jpg"
           alt="Vista externa da Pousada Estaleiro Village"
           fill
           className="object-cover"
@@ -127,7 +91,7 @@ export default function APousadaPage() {
 
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
             <Image
-              src="/assets/images/frente_20mar_202.jpg"
+              src="/assets/images/exterior-jardim/exterior-jardim-06.jpg"
               alt="Vista para o mar na Estaleiro Village"
               fill
               className="object-cover"
@@ -194,7 +158,7 @@ export default function APousadaPage() {
           </div>
           <div className="relative order-1 aspect-[4/3] overflow-hidden rounded-2xl shadow-sm lg:order-2">
             <Image
-              src="/assets/images/jardim_202.jpg"
+              src="/assets/images/exterior-jardim/exterior-jardim-03.jpg"
               alt="Áreas verdes da pousada onde pets podem se divertir"
               fill
               quality={85}
@@ -218,36 +182,25 @@ export default function APousadaPage() {
             Relaxe em meio à natureza com vista para o mar
           </p>
 
-          <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-[1.4fr_1fr]">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
-              <Image
-                src="/assets/images/flickr/pousada-08.jpg"
-                alt="Área de lazer e piscina externa da Estaleiro Village"
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 58vw"
-              />
-            </div>
-            <div className="flex flex-col gap-4">
-              <div className="relative aspect-[2/3] overflow-hidden rounded-xl">
+          <div className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-3">
+            {[
+              { src: "/assets/images/piscina-lazer/piscina-lazer-01.jpg", alt: "Piscina externa com vista para o mar" },
+              { src: "/assets/images/piscina-lazer/piscina-lazer-02.jpg", alt: "Área de lazer da pousada" },
+              { src: "/assets/images/piscina-lazer/piscina-lazer-03.jpg", alt: "Piscina e jardins da Estaleiro Village" },
+              { src: "/assets/images/piscina-lazer/piscina-lazer-04.jpg", alt: "Deck e área de descanso" },
+              { src: "/assets/images/piscina-lazer/piscina-lazer-05.jpg", alt: "Espaço de lazer ao ar livre" },
+              { src: "/assets/images/piscina-lazer/piscina-lazer-06.jpg", alt: "Área de convivência da pousada" },
+            ].map(({ src, alt }) => (
+              <div key={src} className="relative aspect-[4/3] overflow-hidden rounded-xl">
                 <Image
-                  src="/assets/images/frente_20mar_202.jpg"
-                  alt="Vista do mar na Estaleiro Village"
+                  src={src}
+                  alt={alt}
                   fill
                   className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 40vw"
+                  sizes="(max-width: 768px) 50vw, 33vw"
                 />
               </div>
-              <div className="relative aspect-[2/3] overflow-hidden rounded-xl">
-                <Image
-                  src="/assets/images/jardim_202.jpg"
-                  alt="Jardins da Estaleiro Village"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 40vw"
-                />
-              </div>
-            </div>
+            ))}
           </div>
 
           <div className="mt-6 flex flex-wrap gap-2">
@@ -276,7 +229,7 @@ export default function APousadaPage() {
           <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
             <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
               <Image
-                src="/assets/images/36829524845_8e2b17b5b4_c.jpg"
+                src="/assets/images/gastronomia/gastronomia-04.jpg"
                 alt="Gastronomia à beira-mar na Estaleiro Village"
                 fill
                 className="object-cover"
@@ -327,8 +280,8 @@ export default function APousadaPage() {
           <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
             <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
               <Image
-                src="/assets/images/flickr/cafe-04.jpg"
-                alt="Cafe da manha na Pousada Estaleiro Village"
+                src="/assets/images/gastronomia/gastronomia-01.jpg"
+                alt="Café da manhã na Pousada Estaleiro Village"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

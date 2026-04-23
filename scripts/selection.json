@@ -1,0 +1,130 @@
+{
+  "acomodacoes/suite-jardim": [
+    "/assets/images/acomodacoes/suite-jardim/suite-jardim-01.jpg",
+    "/assets/images/acomodacoes/suite-jardim/suite-jardim-02.jpg",
+    "/assets/images/acomodacoes/suite-jardim/suite-jardim-03.jpg",
+    "/assets/images/acomodacoes/suite-jardim/suite-jardim-04.jpg",
+    "/assets/images/acomodacoes/suite-jardim/suite-jardim-05.jpg",
+    "/assets/images/acomodacoes/suite-jardim/suite-jardim-06.jpg"
+  ],
+  "acomodacoes/studio": [
+    "/assets/images/acomodacoes/studio/studio-01.jpg",
+    "/assets/images/acomodacoes/studio/studio-02.jpg",
+    "/assets/images/acomodacoes/studio/studio-03.jpg",
+    "/assets/images/acomodacoes/studio/studio-04.jpg",
+    "/assets/images/acomodacoes/studio/studio-05.jpg",
+    "/assets/images/acomodacoes/studio/studio-06.jpg"
+  ],
+  "acomodacoes/studio-superior": [
+    "/assets/images/acomodacoes/studio-superior/studio-superior-01.jpg",
+    "/assets/images/acomodacoes/studio-superior/studio-superior-02.jpg",
+    "/assets/images/acomodacoes/studio-superior/studio-superior-03.jpg",
+    "/assets/images/acomodacoes/studio-superior/studio-superior-04.jpg",
+    "/assets/images/acomodacoes/studio-superior/studio-superior-05.jpg",
+    "/assets/images/acomodacoes/studio-superior/studio-superior-06.jpg"
+  ],
+  "acomodacoes/flat": [
+    "/assets/images/acomodacoes/flat/flat-01.jpg",
+    "/assets/images/acomodacoes/flat/flat-02.jpg",
+    "/assets/images/acomodacoes/flat/flat-03.jpg",
+    "/assets/images/acomodacoes/flat/flat-04.jpg",
+    "/assets/images/acomodacoes/flat/flat-05.jpg",
+    "/assets/images/acomodacoes/flat/flat-06.jpg"
+  ],
+  "acomodacoes/loft": [
+    "/assets/images/acomodacoes/loft/loft-01.jpg",
+    "/assets/images/acomodacoes/loft/loft-02.jpg",
+    "/assets/images/acomodacoes/loft/loft-03.jpg",
+    "/assets/images/acomodacoes/loft/loft-04.jpg",
+    "/assets/images/acomodacoes/loft/loft-05.jpg",
+    "/assets/images/acomodacoes/loft/loft-06.jpg"
+  ],
+  "acomodacoes/suite-frente-mar": [
+    "/assets/images/acomodacoes/suite-frente-mar/suite-frente-mar-01.jpg",
+    "/assets/images/acomodacoes/suite-frente-mar/suite-frente-mar-02.jpg",
+    "/assets/images/acomodacoes/suite-frente-mar/suite-frente-mar-03.jpg",
+    "/assets/images/acomodacoes/suite-frente-mar/suite-frente-mar-04.jpg",
+    "/assets/images/acomodacoes/suite-frente-mar/suite-frente-mar-05.jpg",
+    "/assets/images/acomodacoes/suite-frente-mar/suite-frente-mar-06.jpg"
+  ],
+  "acomodacoes/torre-oceano": [
+    "/assets/images/acomodacoes/torre-oceano/torre-oceano-01.jpg",
+    "/assets/images/acomodacoes/torre-oceano/torre-oceano-02.jpg",
+    "/assets/images/acomodacoes/torre-oceano/torre-oceano-03.jpg",
+    "/assets/images/acomodacoes/torre-oceano/torre-oceano-04.jpg",
+    "/assets/images/acomodacoes/torre-oceano/torre-oceano-05.jpg",
+    "/assets/images/acomodacoes/torre-oceano/torre-oceano-06.jpg"
+  ],
+  "acomodacoes/chale-b": [
+    "/assets/images/acomodacoes/chale-b/chale-b-01.jpg",
+    "/assets/images/acomodacoes/chale-b/chale-b-02.jpg",
+    "/assets/images/acomodacoes/chale-b/chale-b-03.jpg",
+    "/assets/images/acomodacoes/chale-b/chale-b-04.jpg",
+    "/assets/images/acomodacoes/chale-b/chale-b-05.jpg",
+    "/assets/images/acomodacoes/chale-b/chale-b-06.jpg"
+  ],
+  "acomodacoes/chale-c": [
+    "/assets/images/acomodacoes/chale-c/chale-c-01.jpg",
+    "/assets/images/acomodacoes/chale-c/chale-c-02.jpg",
+    "/assets/images/acomodacoes/chale-c/chale-c-03.jpg",
+    "/assets/images/acomodacoes/chale-c/chale-c-04.jpg",
+    "/assets/images/acomodacoes/chale-c/chale-c-05.jpg",
+    "/assets/images/acomodacoes/chale-c/chale-c-06.jpg"
+  ],
+  "acomodacoes/duplex-c": [
+    "/assets/images/acomodacoes/duplex-c/duplex-c-01.jpg",
+    "/assets/images/acomodacoes/duplex-c/duplex-c-02.jpg",
+    "/assets/images/acomodacoes/duplex-c/duplex-c-03.jpg",
+    "/assets/images/acomodacoes/duplex-c/duplex-c-04.jpg",
+    "/assets/images/acomodacoes/duplex-c/duplex-c-05.jpg",
+    "/assets/images/acomodacoes/duplex-c/duplex-c-06.jpg"
+  ],
+  "acomodacoes/sobrado-frente-mar": [
+    "/assets/images/acomodacoes/sobrado-frente-mar/sobrado-frente-mar-01.jpg",
+    "/assets/images/acomodacoes/sobrado-frente-mar/sobrado-frente-mar-02.jpg",
+    "/assets/images/acomodacoes/sobrado-frente-mar/sobrado-frente-mar-03.jpg",
+    "/assets/images/acomodacoes/sobrado-frente-mar/sobrado-frente-mar-04.jpg",
+    "/assets/images/acomodacoes/sobrado-frente-mar/sobrado-frente-mar-05.jpg",
+    "/assets/images/acomodacoes/sobrado-frente-mar/sobrado-frente-mar-06.jpg"
+  ],
+  "praia": [
+    "/assets/images/praia/praia-01.jpg",
+    "/assets/images/praia/praia-02.jpg",
+    "/assets/images/praia/praia-03.jpg",
+    "/assets/images/praia/praia-04.jpg",
+    "/assets/images/praia/praia-05.jpg",
+    "/assets/images/praia/praia-06.jpg"
+  ],
+  "gastronomia": [
+    "/assets/images/gastronomia/gastronomia-01.jpg",
+    "/assets/images/gastronomia/gastronomia-02.jpg",
+    "/assets/images/gastronomia/gastronomia-03.jpg",
+    "/assets/images/gastronomia/gastronomia-04.jpg",
+    "/assets/images/gastronomia/gastronomia-05.jpg",
+    "/assets/images/gastronomia/gastronomia-06.jpg"
+  ],
+  "exterior-jardim": [
+    "/assets/images/exterior-jardim/exterior-jardim-01.jpg",
+    "/assets/images/exterior-jardim/exterior-jardim-02.jpg",
+    "/assets/images/exterior-jardim/exterior-jardim-03.jpg",
+    "/assets/images/exterior-jardim/exterior-jardim-04.jpg",
+    "/assets/images/exterior-jardim/exterior-jardim-05.jpg",
+    "/assets/images/exterior-jardim/exterior-jardim-06.jpg"
+  ],
+  "eventos": [
+    "/assets/images/eventos/eventos-01.jpg",
+    "/assets/images/eventos/eventos-02.jpg",
+    "/assets/images/eventos/eventos-03.jpg",
+    "/assets/images/eventos/eventos-04.jpg",
+    "/assets/images/eventos/eventos-05.jpg",
+    "/assets/images/eventos/eventos-06.jpg"
+  ],
+  "piscina-lazer": [
+    "/assets/images/piscina-lazer/piscina-lazer-01.jpg",
+    "/assets/images/piscina-lazer/piscina-lazer-02.jpg",
+    "/assets/images/piscina-lazer/piscina-lazer-03.jpg",
+    "/assets/images/piscina-lazer/piscina-lazer-04.jpg",
+    "/assets/images/piscina-lazer/piscina-lazer-05.jpg",
+    "/assets/images/piscina-lazer/piscina-lazer-06.jpg"
+  ]
+}
